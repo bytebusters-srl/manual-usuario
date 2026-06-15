@@ -1,0 +1,7 @@
+Al acceder a la sección de "Pipelines" en la barra de navegación en la imagen PipelinesReclutador1.png, podrás gestionar el flujo de tus candidatos a través de las diferentes etapas de selección, que incluyen "Guardados", "Revisión", "Entrevista", "Oferta" y "Contratado".
+
+Para gestionar un candidato individual, puedes hacer clic en el icono de opciones (los tres puntos) situado en su tarjeta en la imagen PipelinesReclutador1.png. Esto abrirá un menú desplegable en la imagen PipelinesReclutador2.png que te permite mover al candidato a otra etapa, añadir notas privadas, abrir un chat o eliminar el perfil.
+
+Si seleccionas la opción "Mover a..." en la imagen PipelinesReclutador2.png, se abrirá una ventana emergente en la imagen PipelinesReclutador3.png donde podrás elegir la nueva etapa para el candidato, actualizando así su posición en el tablero en la imagen PipelinesReclutador4.png.
+
+Adicionalmente, si optas por la función "Añadir nota privada" en la imagen PipelinesReclutador5.png, se desplegará un panel lateral en la imagen PipelinesReclutador6.png donde podrás redactar y guardar notas exclusivas para tu uso personal sobre dicho perfil.

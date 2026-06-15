@@ -1,0 +1,9 @@
+Al acceder a la sección de búsqueda de candidatos seleccionando "Buscar Talento" en la barra de navegación en la imagen BuscarTalento1.png, accederás al panel principal de gestión de candidatos.
+
+En la parte superior, en la imagen BuscarTalento2.png, encontrarás un resumen de tu actividad actual, incluyendo el número de "Perfiles guardados", "Chats activos" y "Talentos explorados".
+
+Para realizar una búsqueda específica, puedes utilizar el campo de "Búsqueda inteligente" en la imagen BuscarTalento3.png, donde puedes ingresar consultas en lenguaje natural para encontrar perfiles que se ajusten a tus necesidades.
+
+En la sección central, en la imagen BuscarTalento4.png, se visualizarán los candidatos que coinciden con tu búsqueda. Desde este panel, puedes interactuar directamente con ellos haciendo clic en los botones de "Chat", "Guardar" o "Ver Perfil" en la imagen BuscarTalento7.png.
+
+Si requieres aplicar criterios específicos para refinar tu búsqueda, puedes hacer clic en el botón "Filtros Avanzados" en la imagen BuscarTalento5.png o en la imagen BuscarTalento6.png. Esto abrirá un menú emergente en la imagen BuscarTalento8.png que permite segmentar a los candidatos por nivel, años de experiencia, disponibilidad, tipo de perfil, educación, trayectoria y habilidades técnicas específicas antes de pulsar "Ver perfiles".
