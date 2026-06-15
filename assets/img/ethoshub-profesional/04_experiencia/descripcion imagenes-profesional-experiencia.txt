@@ -1,0 +1,54 @@
+Para ir al apartado de experiencia laboral debe hacer clic al boton "Experiencia" que se aprecia en la imagen profesional_experiencia_laboral_1
+Despues de darle al boton aparece la pantalla visible en la imagen profesional_experiencia_laboral_2
+para poder registrar una experiencia debe darle al boton de "añadir" visible en la imagen profesional_experiencia_laboral_3
+despues de darle click al boton añadir se nos abre el modal visible en la imagen profesional_experiencia_laboral_4
+el primer campo visible en la imagen profesional_experiencia_laboral_5 nos permite registrar la empresa de la experiencia que queremos registrar
+el segundo campo visible en la imagen profesional_experiencia_laboral_6 nos permite registrar el cargo que ocupamos en la experiencia laboral
+el tercer campo visible en la imagen profesional_experiencia_laboral_7 nos permite registrar la fecha de inicio de la experiencia laboral
+tenemos 2 formas de registrar la fecha de inicio siendo el metodo manual o dandole click a la imagen de calendario visible en la imagen profesional_experiencia_laboral_8
+al darle clicka la imagen de calendario nos aparece un mini-calendario visible en la imagen profesional_experiencia_laboral_9 donde podemos buscar la fecha que queremos registrar
+el cuarto campo visible en la imagen profesional_experiencia_laboral_10 nos permite registrar la fecha de fin de la experiencia laboral
+tenemos 2 formas de registrar la fecha de fin siendo el metodo manual o dandole click a la imagen de calendario visible en la imagen profesional_experiencia_laboral_11
+al darle clicka la imagen de calendario nos aparece un mini-calendario visible en la imagen profesional_experiencia_laboral_12 donde podemos buscar la fecha que queremos registrar
+el quinto campo visible en la imagen profesional_experiencia_laboral_13 nos permite registrar la ubicacion de la empresa en la que se realizo la experiencia laboral
+tenemos 2 formas de registrar la ubicacion siendo el metodo manual insertando la direccion  o dandole click a la imagen de mapa visible en la imagen profesional_experiencia_laboral_14
+al darle click a la imagen de mapa nos aparece un modal donde se nos muestra el mapa visible en la imagen profesional_experiencia_laboral_15
+en el campo visible en la imagen profesional_experiencia_laboral_16 podemos ingresar manualmente la direccion de la empresa
+el boton "cancelar" visible en la imagen profesional_experiencia_laboral_17 nos permite cancelar el registro de la direccion cerrando el modal del mapa
+el boton "guardar" visible en la imagen profesional_experiencia_laboral_18 nos permite completar el registro del campo de dirrecion de la empresa cerrando el modal del mapa y volviendo al modal de registro
+el sexto campo visible en la imagen profesional_experiencia_laboral_19 nos permite registrar el sitio web de la empresa de la que queremos registrar la experiencia laboral
+el primer boton debajo del sexto campo "trabajo aqui actualmente" visible en la imagen profesional_experiencia_laboral_20 nos permite cambiar el registro , al seleccionarlo bloque el cuarto campo "fecha de fin" dejandolo vacio
+el segundo boton debajo del sexto campo "Freelance/independiente" visible en la imagen profesional_experiencia_laboral_21 nos permite cambiar el registro, al seleccionarlo bloquea el primer campo "empresa" cambiando su contenido a trabajo independiente
+el septimo campo visible en la imagen profesional_experiencia_laboral_22 nos permite registrar una descripcion de los logros alcanzados en la experiencia que queremos registrar
+el octavo campo visible en la imagen profesional_experiencia_laboral_23 nos permite registrar las tecnologias que se usaron en la experiencia a registrar
+el noveno campo (siendo un campo opcional) visible en la imagen profesional_experiencia_laboral_24 nos permite subir una imagen del logo de la empresaa la que pertenece la experiencia
+tenemos 2 metodos de registrar el logo de la empresa, el primero metodo visible en la imagen profesional_experiencia_laboral_25 nos permite subir el logo como archivo
+al darle click al boton subir archivo visible en la imagen profesional_experiencia_laboral_26 nos abre el explorador de archivos donde seleccionamos la imagen que se quiere subir 
+el segundo metodo visible en la imagen profesional_experiencia_laboral_27 nos permite subir el logo como un url
+en el campo visible en la imagen profesional_experiencia_laboral_28 ingresamos la url de la imagen que queremos subir 
+al darle al boton "aplicar" visible en la imagen profesional_experiencia_laboral_29 se guarda la url de la imagen mostrando una presualizacion de la misma 
+el decimo campo (siendo un campo opcional) visible en la imagen profesional_experiencia_laboral_24 nos permite subir una imagen del banner de la empresaa la que pertenece la experiencia
+tenemos 2 metodos de registrar el logo de la empresa, el primero metodo visible en la imagen profesional_experiencia_laboral_30 nos permite subir el banner como archivo
+al darle click al boton subir archivo visible en la imagen profesional_experiencia_laboral_31 nos abre el explorador de archivos donde seleccionamos la imagen que se quiere subir 
+el segundo metodo visible en la imagen profesional_experiencia_laboral_32 nos permite subir el banner como un url
+en el campo visible en la imagen profesional_experiencia_laboral_33 ingresamos la url de la imagen que queremos subir 
+al darle al boton "aplicar" visible en la imagen profesional_experiencia_laboral_34 se guarda la url de la imagen mostrando una presualizacion de la misma
+el boton "cancelar" visible en la imagen profesional_experiencia_laboral_35 nos permite cancelar el registro de la experiencia laboral
+el boton "guardar" visible en la imagen profesional_experiencia_laboral_36 nos permite completar y guardar el registro de la experiencia laboral
+una vez completado el registro se cierra el modal y se muestra la experiencia como se puede apreciar en la imagen profesional_experiencia_laboral_37
+en la imagen profesional_experiencia_laboral_38 podemos apreciar como despues de que se completa el registro calcula y muestra el # de años de experiencia, # de empresas y # de roles empleados 
+el boton con simbolo de ojo visible en la imagen profesional_experiencia_laboral_39 nos permite ver una previsualizacion de la experiencia registrada
+en la imagen profesional_experiencia_laboral_40 podemos apreciar como se ve la previsualizacion de la experiencia registrada
+los botones visibles en la imagen profesional_experiencia_laboral_41 nos permiten editar una experiencia registrada
+el boton visible en la imagen profesional_experiencia_laboral_42 nos permite cerrar la previsualizacion de la experiencia registrada
+el boton visible en la imagen profesional_experiencia_laboral_43 permite borrar una experiencia registrada
+en la imagen profesional_experiencia_laboral_44 podemos ver un boton que nos permite editar una experiencia registrada desde la pantalla principal
+en la imagen profesional_experiencia_laboral_45 podemos ver un boton que nos permite borrar una experiencia registrada desde la pantalla principal
+Despues de darle a cualquiera de los botones de editar aparece el modal visible en la imagenes profesional_experiencia_laboral_46 y profesional_experiencia_laboral_47 donde podemos editar todos los campos de la experiencia registrada
+el boton "cancelar" visible en la imagen profesional_experiencia_laboral_48 nos permite cancelar la edicion de los datos de una experiencia registrada
+el boton "guardar" visible en la imagen profesional_experiencia_laboral_49 nos permite sobreescribir los cambios de una experiencia registrada
+el boton "eliminar" visible en la imagen profesional_experiencia_laboral_50 nos permite borrar los cambios de una experiencia registrada
+despues de darle a cualquiera de los botones de "eliminar" nos devuelve a la pantalla de experiencia y nos aparece mensaje visible en la imagen profesional_experiencia_laboral_51 debajo de la experiencia registrada
+al darle al boton "eliminar" en el apartado de confirmacion visible en la imagen profesional_experiencia_laboral_52 esta se elimina de forma permanente desapareciendo del apartado deexperiencia del usurio
+al darle al boton "cancelar" en el apartado de confirmacion visible en la imagen profesional_experiencia_laboral_53 se cancela el intento de borrado de una experiencia, desapareciendo el apartado de confirmacion
+

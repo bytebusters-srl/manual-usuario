@@ -1,0 +1,121 @@
+EDUCACIÓN
+ 
+Apartado de Registro y visualización de Formación y certificaciones 
+Para entrar al apartado de Educación primero se deberá hacer Click en panel lateral donde Indica “EDUCACION” con un símbolo de gorra de bachiller como se indica en la siguiente imagen:
+
+Colocar imagen barra_lateral_profesional_educacion.png
+
+Al momento de entrar podrás visualizar la paginal principal de Educacion como la siguiente imagen:
+
+colocar imagen Pagina_Principal_de_Educacion.png
+
+Lo primero que podras visualizar en el panel donde se registra el numero de Titulos, años y Centros
+Colocar imagen  Panel_Superior_Registra_Numero _Titulo_Años_Centro.png
+
+Luego podras visualizar el dos botones, uno estara en la superio derecha del panel "hitorial academico" y el otro aparece dentro del panel de "Historial academico"(el cual solo aparece cuando o exite ningun registro de Historial académico) donde podras llenar el formulario para poder registrar todas los registros de formacion profesional 
+Colocar imagen Panel_inferior_Historial_acedemico.png
+
+Al momento de hacer a cualquier de los dos botones se podra visualizar el siguiente formulario "Nueva trayectoria":
+colocar imagen Formulacio_registro_Nueva_trayectoria_vacio.png
+
+NOTA: Todos los campos que tengan "*" deben ser llenados de manera obligatoria.
+
+Para comenzar llenado del formulario, empezamos por el apartado de "INSTUCION" donde se podras poner el nombre las institucion donde se formo profesionalmente o esta cursando actualmente
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_01.png
+
+Continuamos con el siguiente apartado de "TIPO DE EDUCACION" donde mediante un desplegable podras seleccionar el tipo de educacion formada
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_02.png 
+colocar imagen Educacion_combobox_tipo_educacion.png
+
+Continuamos con el siguiente apartado "TITULO/GRADO" donde podras poner el nombre del titulo o grado del curso o educacion que recibiste o estas recibiendo actualmente 
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_03.png
+
+continuamos con el siguiente apartado de "Area de estudio" aqui podras colocar el area en especifico de la formacion dada como alguna especialidad
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_04.png
+
+continuamos con el siguiente apartado "INICIO Y FIN" donde podras colocar las fechas de inicio o fin del curso tomado 
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_05.png
+
+continuamos con el siguiente apartado "PROMEDIO/GPA", como se puede observar en el ejemplo que da el sistema deberas colocar el promedio que conseguiste en la formacion tomada 
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_06.png
+
+continuamos con el siguiente apartado de "LINK DE VERIFICACION" como podras obervar con el ejemplo del sistema podras colocar le sitio web del lugar donde tomaste la formacion 
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_07.png
+
+continuamos con con check que ayuda en el caso de que te encuentres estudiado o cursando actualmente al activarlo se bloqueara el apartado de "FIN" de las fechas ya que no es necesario y logico que deje libre este apartado como se muestra en la segunda foto
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_08.png
+colocar imagen Formulario_Bloqueo_Fin_fecha.png
+
+continuamos con el siguiente apartado de subida de archivo y evidencia en el primer apartado tenemos "Logo institucion" donde podras subir como indica el nombre el logo de la institucion desde un archivo local haciendo click en los apartado que indica la imagen donde se despliega el explorador de archivo local 
+
+colocar imagen  Formulacio_registro_Nueva_trayectoria_09.png
+colocar imagen  Formulacio_registro_Nueva_trayectoria_09a.png
+
+despues esta de subir como url la imagen como se indica las siguiente imagenes haciendo click en URL
+
+colocar imagen Educacion_subir_logo_url.png
+
+luego tenemos el subir "certificado/titulo" donde podras subir el certificado en forma de imagen o pdf haciendo click en subir archivo donde se despliega el explorador de archivo local
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_10.png
+colocar imagen Formulacio_registro_Nueva_trayectoria_10a.png
+
+y tambien esta para subir como url el certificado como se indica las siguiente imagenes haciendo click en URL
+
+colocar imagen Educacion_subir_pdf_url.png
+
+y para poner finalizar y subir el regsitro completo de la nueva trayectoria o cancelar el llenado del formulario deberas seleccionar la opcion correspondiente "Cancelar o Guardar"
+
+colocar imagen Formulacio_registro_Nueva_trayectoria_11.png
+colocar imagen Formulacio_registro_Nueva_trayectoria_11a.png
+colocar imagen Formulacio_registro_Nueva_trayectoria_11b.png
+
+al momento de guardar podras visualizar en la pagina de educacion como se muestra en la imagen
+colocar imagen Educacion_panel_principal_registrado.png
+
+donde tambien se puede ver como cambio el apartado del panel superior como sube el contador de Titulos, los años (que se calculan automaticamente con la fechas introduccidas en el formulario) y centros.
+
+colocar imagen Educacion_Contador_de_registro.png
+
+ahora como tenemos el registro de un formulario poder observar en el Historial academico como el de visualizacion
+
+colocar imagen Profesional_Educacion_registrado.png
+colocar imagen Profesional_Educacion_registrado01.png
+
+aqui se mostrara a la derecha un panel con la visualizacion de todo los campos llenados en el formulario
+
+colocar imagen Educacion_vista_previa_de_registro.png
+
+aqui podras editar el los botones que indica la imagen haciendo click en estos se abrira el formulario para poder editar y guarda cualquier campo que desea
+
+colocar imagen Educacion_vista_previa_de_registro01.png
+
+tambien podras entrar al enlace otorgado en el formulario en el apartado de verificacion de credencial
+
+colocar imagen Educacion_vista_previa_de_registro02.png
+
+tambien el apartado de "CERTIFICADO ADJUNTO" podras descargar o visualizar de la imagen o pdf subido en el formulario
+
+colocar imagen Educacion_vista_previa_de_registro03.png
+
+y por ultimo podras eliminar toda la certificacion subida mediante el boton mostrado
+
+colocar imagen Educacion_vista_previa_de_registro04.png
+
+ya regresando a la pagina principal tambien se puede editar el historial academico registrado mediante el boton que indica la imagen 
+
+colocar imagen Profesional_Educacion_registrado02.png
+
+y tambien podras eliminarlo con el boton que se muestra en la imagen donde se despliega una confirmacion que se muestra en la segunda imagen donde tiene Cancelar o Eliminar
+
+colocar imagen Profesional_Educacion_registrado03.png
+colocar imagen Educacion_eliminar_registro.png
+
