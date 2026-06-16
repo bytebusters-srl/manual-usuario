@@ -1,0 +1,53 @@
+Para ir al apartado de métricas globales debe hacer clic al boton "Metricas Globales" que se aprecia en la imagen administrador_metricas_globales_1
+Despues de darle al boton aparece la pantalla visible en la imagen administrador_metricas_globales_2
+El botón "actualizar" visible en la imagen administrador_metricas_globales_3 nos permite refrescar los datos
+el botón "7d" visible en la imagen administrador_metricas_globales_4 nos permite mostrar los datos en un rango de 7 días
+después de darle click al botón "7d" nos aparece una pantalla como la que se ve en la imagen administrador_metricas_globales_5
+el botón "30d" visible en la imagen administrador_metricas_globales_6 nos permite mostrar los datos en un rango de 30 días
+después de darle click al botón "30d" nos aparece una pantalla como la que se ve en la imagen administrador_metricas_globales_7
+el botón "90d" visible en la imagen administrador_metricas_globales_8 nos permite mostrar los datos en un rango de 90 días
+después de darle click al botón "90d" nos aparece una pantalla como la que se ve en la imagen administrador_metricas_globales_9
+el botón "1y" visible en la imagen administrador_metricas_globales_10 nos permite mostrar los datos en un rango de 1 año
+después de darle click al botón "1y" nos aparece una pantalla como la que se ve en la imagen administrador_metricas_globales_11
+al darle al botón de "tendencias" visible en la imagen administrador_metricas_globales_12 nos muestra los datos de los usuarios
+después de darle click al botón "tendencias" nos aparece una pantalla parecida al de la imagen administrador_metricas_globales_13 donde podemos apreciar la tendencia de registros de usurios
+al darle al botón de "Top skills" visible en la imagen administrador_metricas_globales_14 nos muestra los datos de las skills
+después de darle click al botón "skills" nos aparece una pantalla parecida al de la imagen administrador_metricas_globales_15 donde podemos apreciar el top 5 de las skills y el numero de usuarios q tienen las mismas en sus portafolios
+al darle al botón de "Sistema y Logs" visible en la imagen administrador_metricas_globales_16 nos muestra los datos de la consola
+después de darle click al botón "Sistema y Logs" nos aparece una pantalla parecida al de la imagen administrador_metricas_globales_17 donde podemos apreciar los comando, errores o cambios que se realizan en el sistema
+al darle click al apartado de "Base de datos" visible en la imagen administrador_metricas_globales_18 apreciamos los datos de la base de datos
+después de darle click al apartado de "base de datos" nos aparece el modal visible en la imagen administrador_metricas_globales_19 donde vemos el tamaño de la base de datos , su motor y tiempo corriendo
+al darle al botón de "actualizar métricas" visible en la imagen administrador_metricas_globales_20 actualiza los datos a los actuales
+al darle al botón "x" visible en la imagen administrador_metricas_globales_21 cierra el modal del apartado "Base de datos"
+al darle click al apartado de "Conexiones" visible en la imagen administrador_metricas_globales_22 apreciamos las conexiones existentes
+después de darle click al apartado de "Conexiones" nos aparece el modal visible en la imagen administrador_metricas_globales_23 donde vemos las conexiones activas, total abiertas, maximo permitido y el uso del pool
+al darle al botón de "actualizar métricas" visible en la imagen administrador_metricas_globales_24 actualiza los datos a los actuales
+al darle al botón "x" visible en la imagen administrador_metricas_globales_25 cierra el modal del apartado "Conexiones"
+al darle click al apartado de "Cache hit" visible en la imagen administrador_metricas_globales_26 apreciamos el cache del sistema
+después de darle click al apartado de "Cache hit" nos aparece el modal visible en la imagen administrador_metricas_globales_27 donde vemos el cache hit ratio, umbral recomendado y queries totales
+al darle al botón de "actualizar métricas" visible en la imagen administrador_metricas_globales_28 actualiza los datos a los actuales
+al darle al botón "x" visible en la imagen administrador_metricas_globales_29 cierra el modal del apartado "Cache hit "
+al darle click al apartado de "Query media" visible en la imagen administrador_metricas_globales_30 apreciamos la media de los query del sistema
+después de darle click al apartado de "Query media" nos aparece el modal visible en la imagen administrador_metricas_globales_31 donde vemos el tiempo medio, query mas lenta y queries totales
+al darle al botón de "actualizar métricas" visible en la imagen administrador_metricas_globales_32 actualiza los datos a los actuales
+al darle al botón "x" visible en la imagen administrador_metricas_globales_33 cierra el modal del apartado "Query media"
+al darle click al apartado de "Uptime" visible en la imagen administrador_metricas_globales_34 apreciamos el tiempo en linea del sistema
+después de darle click al apartado de "Uptime" nos aparece el modal visible en la imagen administrador_metricas_globales_35 donde vemos el uptime, segundos exactos y la version
+al darle al botón de "actualizar métricas" visible en la imagen administrador_metricas_globales_36 actualiza los datos a los actuales
+al darle al botón "x" visible en la imagen administrador_metricas_globales_37 cierra el modal del apartado "Uptime"
+al darle click al apartado de "Transacciones" visible en la imagen administrador_metricas_globales_38 apreciamos el numero de transacciones
+después de darle click al apartado de "Transacciones" nos aparece el modal visible en la imagen administrador_metricas_globales_39 donde vemos los commits, rollbacks y ratio de commits
+al darle al botón de "actualizar métricas" visible en la imagen administrador_metricas_globales_40 actualiza los datos a los actuales
+al darle al botón "x" visible en la imagen administrador_metricas_globales_41 cierra el modal del apartado "Transacciones"
+al darle al botón de recargar del apartado "system logs" visible en la imagen administrador_metricas_globales_42 actualiza los logs a los actuales
+al darle al botón "todos" del apartado "system logs" visible en la imagen administrador_metricas_globales_43 nos muestra todos los logs del sistema
+después de darle al botón de "todos" del apartado "system logs" nos aparece una pantalla parecida al de la imagen administrador_metricas_globales_44
+al darle al botón "info" del apartado "system logs" visible en la imagen administrador_metricas_globales_45 nos muestra los logs de info del sistema
+después de darle al botón de "info" del apartado "system logs" nos aparece una pantalla parecida al de la imagen administrador_metricas_globales_46
+al darle al botón "success" del apartado "system logs" visible en la imagen administrador_metricas_globales_47 nos muestra los logs de completados del sistema
+después de darle al botón de "success" del apartado "system logs" nos aparece una pantalla parecida al de la imagen administrador_metricas_globales_48
+al darle al botón "warning" del apartado "system logs" visible en la imagen administrador_metricas_globales_49 nos muestra los logs warning del sistema
+después de darle al botón de "warning" del apartado "system logs" nos aparece una pantalla parecida al de la imagen administrador_metricas_globales_50
+al darle al botón "error" del apartado "system logs" visible en la imagen administrador_metricas_globales_51 nos muestra los logs que dieron error del sistema
+después de darle al botón de "error" del apartado "system logs" nos aparece una pantalla parecida al de la imagen administrador_metricas_globales_52
+el campo "buscar en logs" del apartado "system logs" visible en la imagen administrador_metricas_globales_53 nos permite buscar un logs por su nombre de todos los logs del sistema
