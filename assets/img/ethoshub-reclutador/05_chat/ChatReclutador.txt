@@ -1,0 +1,15 @@
+Al acceder a la sección de "Chat" en la barra de navegación en la imagen ChatReclutador1.png, accederás al panel central de mensajería donde puedes gestionar todas tus conversaciones activas con los candidatos.
+
+En el panel izquierdo en la imagen ChatReclutador4.png, puedes utilizar la barra de búsqueda para localizar rápidamente a cualquier candidato por su nombre, lo cual filtrará tu lista de contactos activos en la imagen ChatReclutador5.png.
+
+Al seleccionar una conversación, puedes visualizar el historial del chat en la imagen ChatReclutador2.png. Si deseas consultar los detalles del perfil del candidato con quien estás hablando, puedes presionar el icono de información situado en la esquina superior derecha en la imagen ChatReclutador3.png, lo cual abrirá un panel lateral con su ficha profesional.
+
+Para enriquecer tus interacciones, en la parte inferior del chat dispones de diversas herramientas de comunicación:
+
+Adjuntar archivos: Haz clic en el icono del clip en la imagen ChatReclutador6.png para enviar documentos o archivos al candidato.
+
+Mensajes de voz: Selecciona el icono del micrófono en la imagen ChatReclutador7.png para grabar y enviar notas de audio.
+
+Enviar imágenes: Utiliza el icono de la cámara en la imagen ChatReclutador8.png para compartir fotografías directamente en la conversación.
+
+Emoticonos: Haz clic en el icono de cara sonriente en la imagen ChatReclutador9.png (que corresponde al panel desplegado) para insertar emojis en tus mensajes.

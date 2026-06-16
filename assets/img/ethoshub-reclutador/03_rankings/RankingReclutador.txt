@@ -1,0 +1,7 @@
+Al acceder a la sección de "Rankings" en la barra de navegación en la imagen RankingReclutador1.png, podrás visualizar a los candidatos más destacados de la plataforma según su desempeño y habilidades.
+
+En la parte superior derecha, en la imagen RankingReclutador4.png, encontrarás filtros que te permiten segmentar el ranking por categorías específicas, tales como "General", "Frontend", "Backend", "Data", "Infra" y "Mobile".
+
+Al identificar a un candidato posicionado en el ranking, puedes presionar el botón "¿Por qué #1?" en la imagen RankingReclutador2.png para obtener más detalles sobre su evaluación.
+
+Esto desplegará una ventana emergente en la imagen RankingReclutador3.png, la cual explica las razones técnicas por las que el candidato ocupa dicha posición, destacando sus habilidades más relevantes y su puntuación combinada en actividad y desempeño, lo que lo posiciona como un talento prometedor.

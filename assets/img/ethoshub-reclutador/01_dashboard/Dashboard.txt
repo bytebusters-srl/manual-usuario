@@ -1,0 +1,9 @@
+Al acceder a la plataforma y seleccionar la opción "Dashboard" en la barra de navegación en la imagen DashboardReclutador1.png, se despliega el resumen completo de tu gestión de adquisición de talento.
+
+En la parte superior, en la imagen DashboardReclutador2.png, encontrarás los indicadores clave de rendimiento (KPIs) actualizados semanalmente, que detallan el número de perfiles "Vistos", "Guardados", "Chats" iniciados y candidatos "Contratados".
+
+En la sección central, en la imagen DashboardReclutador3.png, se presenta el "Funnel de Conversión", una herramienta gráfica que te permite visualizar el estado actual y el flujo de tus candidatos a través de las diversas etapas del proceso de selección.
+
+Por otro lado, en la imagen DashboardReclutador4.png, se expone el "Radar de Mercado", el cual ofrece un análisis comparativo visual entre la demanda actual y la disponibilidad de las tecnologías más solicitadas, facilitando la toma de decisiones estratégicas.
+
+Finalmente, para dar continuidad al flujo de trabajo y localizar nuevos perfiles, puedes hacer clic en el botón "Explorar talento" situado en la parte inferior de la pantalla en la imagen DashboardReclutador5.png.

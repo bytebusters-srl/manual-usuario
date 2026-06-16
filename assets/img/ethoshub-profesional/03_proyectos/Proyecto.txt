@@ -1,0 +1,45 @@
+Al entrar a la sección de Proyectos mira el menú que está a la izquierda de tu pantalla en la imagen CrearProyecto1.png. Haz clic en donde dice "Proyectos".
+
+Ahora, en la imagen CrearProyecto2.png, busca el botón grande de color morado que dice "Crear nuevo proyecto" en el centro de la pantalla y dale clic.
+
+A continuación verás una ventana llamada "Crear nuevo proyecto" en la imagen CrearProyecto3.png donde se encuentran los siguientes campos a rellenar:
+
+Título: Escribe el nombre de tu proyecto en la imagen CrearProyecto4.png.
+
+Categoría: Selecciona la categoría en la imagen CrearProyecto5.png.
+
+Descripción: Redacta la información de tu trabajo en la imagen CrearProyecto6.png.
+
+Estado inicial: Define el estado en la imagen CrearProyecto7.png.
+
+Rol: Indica tu rol en el proyecto en la imagen CrearProyecto8.png.
+
+Configuración: Asegúrate de marcar "Proyecto público" si quieres que el proyecto sea publico, pero si no dejalo desmarcado (CrearProyecto9.png) y marca "Destacado en portafolio" si quieres destacar tu portafolio, en caso de que no dejalo desmarcado (CrearProyecto10.png).
+
+Al terminar esto, presiona el botón morado que dice "Continuar" abajo a la derecha en la imagen CrearProyecto10.png.
+
+En la ventana de la imagen CrearProyecto11.png (pestaña Técnica), rellena lo siguiente:
+
+Fecha de inicio: Haz clic en el icono de calendario en la imagen CrearProyecto11.png.
+
+Fecha de fin: Haz clic en el icono de calendario en la imagen CrearProyecto12.png.
+
+Repositorio GitHub: Pega aquí el enlace en la imagen CrearProyecto13.png.
+
+Tecnologías utilizadas: Escribe el nombre de la tecnología y presiona el botón "+ Añadir" en la imagen CrearProyecto14.png.
+
+Resultados obtenidos: Escribe qué lograste en la imagen CrearProyecto15.png.
+
+Cuando termines, vuelve a presionar el botón morado "Continuar" en la imagen CrearProyecto15.png.
+
+En la imagen CrearProyecto5.png (que corresponde a la vista de Media en CrearProyecto16.png), elige una imagen de portada para que tu proyecto se vea bien. Puedes hacer clic en uno de los cuadrados de colores predefinidos (como "Violet Space" o "Matrix").
+
+A continuación, en la imagen CrearProyecto17.png:
+
+Enlaces y recursos: Pega el enlace en la barra blanca y presiona "+ Añadir".
+
+Luego, en la imagen CrearProyecto18.png:
+
+Documentos: Puedes arrastrar archivos (como un PDF) al recuadro punteado.
+
+Y finalmente, en la imagen CrearProyecto18.png, presiona el botón morado que dice "Crear proyecto" abajo a la derecha para terminar todo el proceso.
