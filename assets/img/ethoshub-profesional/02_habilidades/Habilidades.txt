@@ -1,32 +1,31 @@
-1. Vista General de Matriz de Habilidades
-Al ingresar al módulo Matriz de Habilidades, como se observa en la imagen "Habilidades_general", visualizará el panel principal; si es la primera vez que accede o no ha cargado información, la plataforma mostrará una interfaz limpia con un botones para comenzar a añadir sus hard skills y soft skills, así como un resumen en la parte superior derecha con el conteo de sus habilidades registradas.
-
-2. Inicio de Registro de Habilidad Dura (Hard Skill)
-Para comenzar a registrar sus hard skills, haga clic en el botón principal "Agregar Hard Skill" o "+ Hard Skill" ubicado en el centro de la pantalla o en la esquina superior derecha si ya cuenta con registros previos, tal como se ilustra en la imagen Habilidades_agregar_hardskill, lo cual desplegará el formulario flotante para introducir los datos correspondientes.
-
-3. Búsqueda de Hard Skill y Selección de Nivel
-En la ventana emergente detallada en la imagen Habilidades_busqueda_nivel, escriba el nombre de la tecnología o conocimiento en el buscador (por ejemplo: "React") para que el sistema le sugiera las opciones disponibles en el catálogo, y posteriormente seleccione su nivel de dominio actual (Junior, Mid, Senior) en el menú desplegable.
-
-4. Confirmación o Cancelación de Hard Skill
-Una vez completados los campos de la habilidad técnica y su respectivo nivel de dominio, guíe sus acciones con la imagen Habilidades_cancelar_agregar_hardskill y haga clic en el botón "Agregar" para guardar los cambios y actualizar su matriz, o bien haga clic en el botón "Cancelar" (o la "X" superior) si desea descartar la acción y cerrar la ventana sin guardar.
-
-5. Inicio de Registro de Habilidad Blanda (Soft Skill)
-Para añadir competencias interpersonales a su perfil, diríjase a la sección inferior derecha de la pantalla dedicada a "Soft Skills" mostrada en la imagen Habilidades_agregar_softskill y haga clic en el botón "+ Agregar" o "+ Soft Skill" situado en el extremo superior derecho de ese apartado para abrir el formulario específico de soft skills.
-
-6. Completar Datos de la Habilidad Blanda
-En el formulario flotante que se aprecia en la imagen Habilidades_titulo_casodeexito, defina el nombre de su competencia en el campo obligatorio "Título" (por ejemplo: "Responsabilidad") y redacte una breve descripción en el cuadro "Caso de éxito" detallando una experiencia real donde haya aplicado dicha cualidad, respetando el límite máximo de 250 caracteres.
-
-7. Confirmación o Cancelación de Soft Skill
-Tras rellenar el título y el caso de éxito de su competencia interpersonal, guíese por la imagen Habilidades_cancelar_agregar_softskill y presione el botón morado "Agregar" para consolidar el registro en su listado, o bien presione el botón "Cancelar" (o la "X" superior) para anular el proceso sin salvar la información introducida.
-
-8. Filtrado de Hard Skill
-Para segmentar y localizar rápidamente sus conocimientos técnicos, utilice las pestañas de categorías ubicadas arriba del listado como se observa en la imagen Habilidades_filtrar_hard_skill (Frontend, Mobile, Infrastructura, entre otras); al pulsar sobre una categoría específica (por ejemplo: "Mobile"), la pantalla ocultará el resto y mostrará únicamente las tecnologías asociadas a esa rama.
-
-9. Gestión de Hard Skill (Editar, Destacar y Eliminar)
-Al pasar el cursor sobre cualquier hard skill registrada, la plataforma habilitará las opciones mostradas en la imagen Habilidades_editar_destacar_eliminar_hardskill, activando tres iconos de gestión a su derecha: el lápiz para modificar el nivel técnico asignado, la estrella para destacar la competencia dentro de sus habilidades principales (Top Skills), y el basurero para remover permanentemente la tecnología de su matriz.
-
-10. Gestión de Soft Skill (Editar y Eliminar)
-En el bloque inferior de soft skill, si pasa el puntero sobre un registro guardado tal como se ve en la imagen Habilidades_editar_eliminar_softskill, se mostrarán los iconos de acción que le permitirán presionar el lápiz para corregir el título o el caso de éxito redactado, o pulsar el basurero en caso de que requiera dar de baja dicha cualidad de su perfil profesional.
-
-11. Reordenamiento de Top Skills
-En la sección de Top Skills detallada en la imagen Habilidades_reordenamiento, podrá gestionar la prioridad de sus habilidades destacadas; al pasar el cursor sobre cualquier elemento de la lista numerada, se habilitarán las flechas de dirección hacia arriba y hacia abajo en el extremo derecho, las cuales permiten desplazar la posición de la habilidad para definir el orden visual de sus principales fortalezas profesionales.
+Para ir al apartado de habilidades debe hacer clic en el botón de "Habilidades" que se aprecia en la imagen profesional_habilidades_1
+Los botones "+ Hard Skill" y "+ Agregar primera habilidad" visible en la imagen profesional_habilidades_2 nos permite agregar una nueva hard skill
+despues de darle click en "+ Hard Skill" o "+ Agregar primera habilidad nos aparece un modal como en la imagen profesional_habilidades_3
+El espacio de "Buscar tecnología..." visible en la imagen profesional_habilidades_4 nos permite realizar una búsqueda de una tecnología que tengamos como habilidad dura
+El espacio de "Seleccionar nivel" visible en la imagen profesional_habilidades_5 nos permite elegir nuestro nivel
+Los botones de "Cancelar" y "X" visibles en la imagen profesional_habilidades_6 nos permite cancelar y cerrar el modal para no registrar una habilidad
+El boton de "Agregar" visible en la imagen profesional_habilidades_7 nos permite agregar una habilidad dura luego de completar los campos obligatorios
+Una vez agregada una habilidad dura visible en la imagen profesional_habilidades_8 el boton con figura de un lapiz nos permite editar nuestra habilidad dura
+En el modal visible en la imagen profesional_habilidades_9 podemos editar el nivel
+despues de editar nuestro nivel como la imagen profesional_habilidades_10 los botones de "Cancelar" y "X" nos permiten cancelar o cerrar la edicion
+El boton de "Actualizar" visible en la imagen profesional_habilidades_11 nos permite actualizar nuestra habilidad dura
+despues de editar como en la imagen profesional_habilidades_12 el boton de con figura de una estrella nos permite destacar nuestra habilidad dura
+despues de destacar nuestra habilidad dura como en la imagen profesional_habilidades_13 se muestra en la seccion de "Top Skills"
+despues de tener mas de una o dos habilidades duras destacadas como en la imagen profesional_habilidades_14 los botones con flecha en direccion arriba y abajo nos permiten organizar por orden de prioridad de nuestra habilidades duras
+despues el boton de la figura con estrella como en la imagen profesional_habilidades_15 nos permite quitar nuestra habilidad dura de la seccion de "Top Skills"
+despues de apretar el boton de la estrella en la seccion de "Top Skills" la habilidad dura deja de estar en dicha seccion como en la imagen profesional_habilidades_16
+al darle a los botones "Todos, Frontend, Backend, Base de Datos, Infraestructura, Mobile, Diseño" visibles en la imagen profesional_habilidades_17 nos permiten filtrar las habilidades duras
+despues de darle al boton de "Frontend" como en la imagen profesional_habilidades_18 se filtra las habilidades duras catalogadas como Frontend
+luego al darle a otro boton en este caso "Base de Datos" como en la imagen profesional_habilidades_19 se filtra las habilidades duras catalogadas como Base de Datos
+despues los botones de "+ Soft Skill" y "+ Agregar" visibles en la imagen profesional_habilidades_20 nos permiten agregar una nueva habilidad blanda
+despues de darle aparece un modal donde en la seccion de "Titulo" podemos ingresar un titulo de nuestra habilidad blanda como en la imagen profesional_habilidades_21
+en el espacio de "Caso de éxito" podemos ingresar un escenario donde tuvimos éxito aplicando la habilidad blanda con un maximo de 250 caracteres como en la imagen profesional_habilidades_22
+los botones de "Cancelar" y "X" visibles en la imagen profesional_habilidades_23 nos permiten cancelar y cerrar el modal
+el boton de "Agregar" visible en la imagen profesional_habilidades_24 nos permite agregar una nueva habilidad blanda luego de completar los campos obligatorios
+despues de agregar una habilidad blanda es visible como en la imagen profesional_habilidades_25
+el boton con la figura de un lapiz nos permite editar nuestra habilidad blanda como en la imagen profesional_habilidades_26
+despues de hacer clic en el boton con figura de lapiz podemos editar los campos de "Titulo" y "Caso de éxito" como en la imagen profesional_habilidades_27
+los boton de "Cancelar" y "X" nos permiten cancelar o cerrar el modal de "Editar Soft Skill" como en laprofesional_habilidades_28
+el boton de "Actualizar" nos permite actualizar nuestra habilidad blanda una vez que terminemos de editar los campos obligatorios como en la imagen profesional_habilidades_29
+el boton con icono de un tacho de basura visible en la imagen profesional_habilidades_30 nos permite eliminar una habilidad blanda
+el boton con icono de un tacho de basura visible en la imagen profesional_habilidades_31 nos permite eliminar una habilidad dura

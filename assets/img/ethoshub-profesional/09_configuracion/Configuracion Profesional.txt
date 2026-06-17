@@ -1,69 +1,52 @@
-I. CONFIGURACIÓN GENERAL
-1. Panel de Configuración General
-Al ingresar al apartado de configuracion de la plataforma, tal como se aprecia en el menú lateral izquierdo de la imagen Configuracion_general, el usuario visualizará el panel unificado de configuración desde el cual podrá navegar de manera centralizada entre las pestañas de Identidad, Personalización y Seguridad para gestionar de forma integral toda la información de su cuenta.
-
-II. CONFIGURACIÓN DE IDENTIDAD
-2. Update de Nombre y Apellido Profesional
-Para modificar la identidad básica en el perfil, el usuario debe rellenar los campos de texto enmarcados de la imagen Configuracion_identidad_datosprofesionales_nombreapellido, los cuales corresponden a los recuadros obligatorios de "Nombre" y "Apellido" localizados en la parte superior del formulario de datos profesionales para corregir o actualizar la información de contacto personal.
-
-3. Actualización del Nivel Profesional
-Para registrar el grado de experiencia técnica en la plataforma, el usuario debe hacer uso del menú desplegable enmarcado de la imagen Configuracion_identidad_datosprofesionales_nivelprofesional, el cual corresponde al campo "Nivel profesional" y permite seleccionar la categoría laboral adecuada (como por ejemplo "Mid Level") que se reflejará públicamente en su ficha de perfil.
-
-4. Configuración de Disponibilidad Laboral
-Para indicar el estatus actual de cara a nuevos proyectos, se debe interactuar con el campo enmarcado de la imagen Configuracion_identidad_datosprofesionales_disponibilidad, el cual consiste en un selector desplegable titulado "Disponibilidad para trabajar" que sirve para detallar ante los reclutadores el tipo de jornada o la disposición de tiempo inmediato con la que se cuenta.
-
-5. Actualización de la Ubicación Geográfica
-Para modificar la residencia registrada, el usuario debe presionar el campo enmarcado de la imagen Configuracion_identidad_datosprofesionales_ubicacion, el cual almacena la dirección domiciliaria actual y abre de forma automática un asistente cartográfico interactivo que permite geolocalizar de manera exacta la procedencia del profesional.
-
-6. Confirmación de Ubicación en el Mapa
-Al momento de definir las coordenadas geográficas, se despliega la interfaz con los controles enmarcados de la imagen Configuracion_identidad_datosprofesionales_seleccionubicacion, donde tras ubicar el marcador sobre el mapa, el usuario puede interactuar con el botón "Cancelar" para descartar el cambio de dirección o presionar el botón "Confirmar" para consolidar la nueva ubicación en el formulario.
-
-7. Vinculación del Sitio Web Profesional
-Para conectar portafolios externos o perfiles de desarrollo, el usuario dispone del campo de texto enmarcado de la imagen Configuracion_identidad_datosprofesionales_sitio_web, diseñado específicamente para introducir la URL completa de su sitio web o repositorio principal (como por ejemplo un enlace directo de GitHub) para robustecer su perfil técnico.
-
-8. Guardar Cambios de Datos Profesionales
-Una vez que se han actualizado todos los campos del perfil, el usuario debe formalizar la operación mediante el control enmarcado de la imagen Configuracion_identidad_datosprofesionales_guardar, haciendo clic sobre el botón morado "Guardar perfil" ubicado en la esquina inferior derecha para registrar permanentemente los cambios en la base de datos.
-
-9. Edición de la Fotografía de Perfil
-Para realizar la actualización de la imagen de usuario, se debe utilizar el control enmarcado de la imagen Configuracion_identidad_fotodeperfil, el cual consiste en el botón "Seleccionar archivo" ubicado justo debajo de la previsualización del avatar, permitiendo explorar los archivos locales del ordenador para cargar una nueva fotografía profesional.
-
-10. Redacción de la Biografía Profesional
-Para presentarse ante la comunidad y los reclutadores, el usuario cuenta con el área de texto enmarcada de la imagen Configuracion_identidad_biografiapersonal, la cual compone el bloque "Biografía profesional" y permite redactar una descripción resumida sobre la trayectoria, metas y pasiones del perfil, vigilando no exceder el límite establecido por el contador de caracteres.
-
-III. CONFIGURACIÓN DE PERSONALIZACIÓN
-11. Acceso a la Sección de Personalización
-Para modificar el aspecto visual de la plataforma, el usuario debe interactuar con los elementos enmarcados de la imagen Configuracion_personalizacion, donde se resalta en el menú lateral la opción "Personalización" y en el área de trabajo el botón de acceso directo "Personalización", los cuales redirigen al panel donde se configuran las preferencias de idioma y tema visual.
-
-12. Configuración del Idioma de la Interfaz
-Para adecuar el sistema al idioma de su preferencia, el usuario dispone de los botones enmarcados de la imagen Configuracion_personalizacion_idioma, los cuales componen el selector denominado "Idioma de la interfaz" y permiten alternar de manera instantánea toda la plataforma entre las opciones de "ES" (Español), "EN" (English) o "PT" (Português).
-
-13. Selección del Tema de la Interfaz
-Con el fin de adaptar la experiencia visual, se pueden alternar las opciones enmarcadas de la imagen Configuracion_personalizacion_tema dentro del bloque "Tema de la interfaz", el cual proporciona tres botones de apariencia para configurar el entorno gráfico del dashboard en modalidad "Claro", modalidad "Oscuro" o modalidad "Sistema" según los ajustes del dispositivo.
-
-IV. CONFIGURACIÓN DE SEGURIDAD
-14. Acceso al Panel de Seguridad
-Para gestionar los accesos y credenciales de la cuenta, el usuario debe dirigirse a los elementos enmarcados de la imagen Configuracion_seguridad, validando el acceso a través del submenú lateral izquierdo "Seguridad" o bien haciendo uso del botón de acceso directo "Seguridad" del panel central para abrir las opciones de autenticación.
-
-15. Iniciar Cambio de Correo Electrónico
-Para dar inicio a la modificación de la cuenta de acceso principal, el usuario debe presionar el control enmarcado de la imagen Configuracion_seguridad_cambiarcorreo1, el cual corresponde al botón morado "Solicitar cambio de correo" ubicado en el bloque lateral derecho de la sección para disparar el flujo seguro de validación de identidad.
-
-16. Validación de Código para Cambio de Correo
-En el segundo paso del flujo de correo, el usuario visualizará los elementos enmarcados de la imagen Configuracion_seguridad_cambiarcorreo2, debiendo ingresar el código numérico recibido en su casilla postal dentro del campo "Código de verificación" y presionar posteriormente el botón "Verificar código" para habilitar la edición de la nueva dirección.
-
-17. Guardar Nueva Dirección de Correo
-Para finalizar el proceso de actualización del correo electrónico, el usuario debe rellenar los elementos enmarcados de la imagen Configuracion_seguridad_cambiarcorreo3, ingresando la dirección inédita en el cuadro de texto de la ventana flotante y haciendo clic inmediatamente en el botón morado "Actualizar correo" para guardar la nueva credencial de acceso.
-
-18. Iniciar Cambio de Contraseña
-Para actualizar la clave de acceso por motivos de protección, el usuario debe interactuar con el control enmarcado de la imagen Configuracion_seguridad_cambiarcontraseña1, haciendo clic sobre el botón morado "Solicitar cambio de contraseña" situado a la derecha del bloque de seguridad para que la plataforma autorice el formulario de reconfiguración.
-
-19. Validación de Código para Cambio de Contraseña
-Como medida de control en el cambio de clave, el usuario debe interactuar con los elementos enmarcados de la imagen Configuracion_seguridad_cambiarcontraseña2, introduciendo la clave de seguridad enviada a su correo en el campo "Código de verificación" y presionando después el botón morado "Verificar código" para desbloquear los campos de escritura.
-
-20. Confirmación de Nueva Contraseña
-Para culminar de forma exitosa la reconfiguración de la clave, el usuario debe completar los campos de texto enmarcados de la imagen Configuracion_seguridad_cambiarcontraseña3, donde escribirá la clave elegida en el campo superior y la repetirá en el campo inferior de confirmación, presionando finalmente el botón morado "Actualizar contraseña".
-
-21. Exportación de Datos de la Cuenta
-Para descargar un respaldo con toda la información técnica e interpersonal almacenada, el usuario debe dirigirse al bloque enmarcado de la imagen Configuracion_seguridad_exportardatos, donde al hacer clic en el botón "Exportar datos" el sistema procesará y descargará de manera automática un archivo estructurado con todo el historial del perfil.
-
-22. Eliminación Permanente de la Cuenta
-Para realizar la baja definitiva del perfil en la plataforma, el usuario debe dirigirse al área crítica enmarcada de la imagen Configuracion_seguridad_eliminarcuenta, localizando el apartado de advertencia "Zona de peligro" y haciendo clic sobre el botón rojo "Eliminar cuenta" para remover de forma irreversible toda la información del sistema.
+Para ir al apartado de configuración debe hacer clic en en el botón de "Configuración" que se aprecia en la imagen configuracion_profesional_1
+el botón de "Identidad" muestra la sección entera para configurar el perfil como en la imagen configuracion_profesional_2
+las secciones de "Foto de perfil" se remarcan en 3 lugares distintos que se puede ver en la imagen configuracion_profesional_3
+el boton de "Seleccionar Imagen" y el campo de "pega una URL de imagen" nos permite cambiar nuestra foto de perfil como en la imagen configuracion_profesional_4
+el botón de "Guardar" en la imagen configuracion_profesional_5 nos permite guardar nuestra foto de perfil
+al hacer clic en "Guardar" vemos que las 3 secciones donde se visualiza la foto de perfil se que el cambio como en la imagen configuracion_profesional_6
+los campos de "Nombre" y "Apellido" nos permiten colocar nuestro nombres y apellidos respectivo con un valor máximo de 80 caracteres como en la imagen configuracion_profesional_7
+en el campo de "Nivel profesional" podemos seleccionar el nivel que tenemos al hacer clic en cualquiera de las opciones como en la imagen configuracion_profesional_8
+en el campo de "Disponibilidad" podemos seleccionar al hacer clic en cualquiera de las opciones como en la imagen configuracion_profesional_9
+en el campo de "Ubicación" podemos escribir nuestra dirección actual como en la imagen configuracion_profesional_10 con un valor máximo de 80 caracteres
+el botón con icono de un marcador en la imagen configuracion_profesional_11 nos permite desplegar un mapa interactivo
+luego de hacer click en el icono de marcador vemos un modal de "Seleccionar ubicación" como en la imagen configuracion_profesional_12
+en el campo de "Busca una dirección o lugar..." como en la imagen configuracion_profesional_13 podemos buscar un lugar mediante calles, avenida, ciudad o país
+en el mapa interactivo si hacemos clic en alguna sección del mapa se muestra un icono de marcador como en la imagen configuracion_profesional_14 que podemos arrastrar para marcar nuestra ubicación exacta
+el botón de "Cancelar" o "X" que es visible en la imagen configuracion_profesional_15 nos permite al hacer clic cancelar o cerrar el modal de selección de ubicación
+el botón de "Confirmar" visible en la imagen configuracion_profesional_16 nos permite confirmar nuestra ubicación y guardar con un autocompletado automatico
+el campo de "Sitio web personal" visible en la imagen configuracion_profesional_17 nos permite ingresar un sitio web personal que tengamos con un máximo de 80 caracteres
+el botón "Guardar perfil" visible en la imagen configuracion_profesional_18 al hacer clic guardar nuestros datos profesionales
+en la imagen configuracion_profesional_19 vemos el llenado de nuestros datos profesionales
+los datos de profesionales son posibles actualizarlos una vez que modifiques los campos y le demos clic al botón "Guardar perfil" como en la imagen configuracion_profesional_20
+en la sección de "Biografia profesional" visible en la imagen configuracion_profesional_21 podemos ingresar una pequeña biografia con un máximo de 500 caracteres
+el botón de "Guardar bio" visible en la imagen configuracion_profesional_22 nos permite guardar nuestra biografia personal
+una vez completados todos los campos podemos observar que se guardar correctamente como en la imagen configuracion_profesional_23
+para ir a la sección de personalización debemos hacer clic en "Personalización" como en la imagen configuracion_profesional_24
+en la sección de "Tema de la Interfaz" visible en la imagen configuracion_profesional_25 podemos hacer clic en "Claro" para seleccionar un modo claro de la plataforma
+el botón de "Oscuro" visible en la imagen configuracion_profesional_26 al hacer clic cambia a modo oscuro toda la plataforma y el botón "Sistema" se adapta al tema del Navegador
+en la sección de "Idioma de la Interfaz" visible en la imagen configuracion_profesional_27 podemos hacer clic en "ES" "EN" "BR" para seleccionar un idioma a nuestra elección
+para ir a seguridad debemos hacer clic en "Seguridad" como en la imagen configuracion_profesional_28
+en la sección de "Cambiar contraseña" en el botón de "Solicitar cambio de contraseña" visible en la imagen configuracion_profesional_29 podemos hacer clic para pedir un código en el correo asociado al momento de registrarse en la plataforma
+luego de hacer clic en la sección de "Codigo de verificación" en la imagen configuracion_profesional_30 debemos ingresar un código que nos mando la plataforma a nuestro correo asociado
+el botón de "Volver" visible en la imagen configuracion_profesional_31 nos permite volver y cancelar la accion de cambiar contraseña
+el botón "Verificar código" visible en la imagen configuracion_profesional_32 nos permite verificar el código ingresado para avanzar al siguiente paso
+en la imagen configuracion_profesional_33 podemos ver el código que la plataforma envió a nuestro correo asociado a la cuenta
+luego de avanzar al siguiente paso tenemos 2 campos donde debemos ingresar la nueva contraseña visible en la imagen configuracion_profesional_34
+los botones con icono de ojos visibles en la imagen configuracion_profesional_35 al hacer clic nos permiten ver la contraseña que ingresamos y Tambien ocultar
+el botón de "Volver" visible en la imagen configuracion_profesional_36 nos permite volver y cancelar la accion de cambiar contraseña
+el botón "Actualizar contraseña" visible en la imagen configuracion_profesional_37 nos permite cambiar nuestra contraseña por la nueva ingresada
+en la sección de "Cambiar correo electrónico" visible en la imagen configuracion_profesional_38 en el botón de "Solicitar cambio de correo" al hacer clic nos envia un código a nuestro correo asociado
+en el campo de "Codigo de verificación" visible en la imagen configuracion_profesional_39 debemos ingresar el código que nos mando la plataforma al correo
+en la imagen configuracion_profesional_40 se ve el código que la plataforma nos envió para el cambio de correo electrónico
+el botón de "Volver" visible en la imagen configuracion_profesional_41 nos permite volver y cancelar la accion de cambiar correo electrónico
+el botón "Verificar código" visible en la imagen configuracion_profesional_42 nos permite verificar el código ingresado para avanzar al siguiente paso
+luego de avanzar al siguiente paso tenemos un campo visible en la configuracion_profesional_43 donde debemos ingresar un nuevo correo electrónico
+el botón de "Volver" visible en la imagen configuracion_profesional_44 nos permite volver y cancelar la accion de cambiar correo electrónico
+el botón "Actualizar correo" visible en la imagen configuracion_profesional_45 al hacer clic nos permite cambiar nuestro correo por el nuevo ingresado
+en la sección de "Exportar mis datos" el botón visible "Exportar datos" en la imagen configuracion_profesional_46 al hacer clic permite que podamos descargar nuestros datos completos
+en la imagen configuracion_profesional_47 se visualiza un modal de cargar de la exportación de datos
+una vez que termine de cargar la exportación de datos nos permite elegir la ubicación donde guardaremos nuestros datos con el nombre de la plataforma y fecha como en la imagen configuracion_profesional_49
+en la sección de "Zona de peligro" el botón "Eliminar cuenta" visible en la imagen configuracion_profesional_49 al hacer clic despliega un modal
+luego de que aparezca el modal los botones "Cancelar" y "Enviar código" visibles en la imagen configuracion_profesional_50 que al hacer clic en cancelar cancela y cierra el modal y al hacer clic en enviar código nos manda al correo asociado
+en la imagen configuracion_profesional_51 se visualiza el código que la plataforma nos mando al correo asociado
+en la imagen configuracion_profesional_52 los botones "Volver" y "Confirmar eliminación" una vez agregado el código nos permite volver la accion de eliminar cuenta y el de confirmar eliminación para eliminar la cuenta

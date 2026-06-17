@@ -1,60 +1,50 @@
-I. CONFIGURACIÓN GENERAL
-1. Panel de Configuración General
-Al ingresar al apartado de configuracion de la plataforma, tal como se aprecia en el menú lateral izquierdo de la imagen Configuracion_general, el usuario visualizará el panel unificado de configuración desde el cual podrá navegar de manera centralizada entre las pestañas de Identidad, Personalización y Seguridad para gestionar de forma integral toda la información de su cuenta.
-
-II. CONFIGURACIÓN DE IDENTIDAD
-2. Actualización de Nombre y Apellido
-Para modificar la identidad básica en el perfil, el usuario debe rellenar los campos de texto enmarcados de la imagen Configuracion_identidad_datosdelperfil_nombreapellido, los cuales corresponden a los recuadros obligatorios de "Nombre" y "Apellido" localizados en la parte superior del formulario de datos profesionales para corregir o actualizar la información de contacto personal.
-
-3. Registro de la Empresa Actual
-Para indicar su situación laboral vigente, el usuario debe interactuar con el campo de texto enmarcado de la imagen Configuracion_identidad_datosdelperfil_empresaactual, el cual corresponde al espacio de escritura "Empresa" diseñado para introducir manualmente el nombre de la organización, corporación o institución donde presta servicios profesionales en la actualidad.
-
-4. Configuración del Cargo Empresarial
-Para detallar el puesto o rol profesional desempeñado, se debe rellenar el campo de texto enmarcado de la imagen Configuracion_identidad_datosdelperfil_cargoempresa, el cual consiste en el cuadro de entrada "Cargo" y sirve para especificar la denominación del puesto actual asignado dentro de su estructura laboral (por ejemplo, "Desarrollador de Software").
-
-5. Configuración de Ubicación Geográfica
-Para modificar la residencia registrada, el usuario debe presionar el campo enmarcado de la imagen Configuracion_identidad_datosdelperfil_ubicacion, el cual almacena la dirección domiciliaria actual y abre de forma automática un asistente cartográfico interactivo que permite geolocalizar de manera exacta la procedencia del profesional.
-
-6. Confirmación de Ubicación en el Mapa
-Al momento de definir las coordenadas geográficas, se despliega la interfaz con los controles enmarcados de la imagen Configuracion_identidad_datosdelperfil_mapa, donde tras ubicar el marcador sobre el mapa, el usuario puede interactuar con el botón "Cancelar" para descartar el cambio de dirección o presionar el botón "Confirmar" para consolidar la nueva ubicación en el formulario.
-
-7. Enlace a Información de la Empresa
-Para expandir los detalles corporativos de su empleo, el usuario cuenta con el bloque de texto enmarcado de la imagen Configuracion_identidad_datosdelperfil_sobretuempresa, el cual se compone del campo "Sobre tu empresa" diseñado para redactar una breve descripción o reseña acerca de las actividades, el rubro o la misión de la compañía donde trabaja.
-
-8. Registro de Teléfono de Contacto
-Para añadir o actualizar una vía directa de comunicación, se debe interactuar con el cuadro enmarcado de la imagen Configuracion_identidad_datosdelperfil_telefonocontacto, el cual habilita el campo numérico "Teléfono" para registrar de forma segura el número telefónico personal o de oficina que se asociará a su ficha de perfil.
-
-9. Edición de la Fotografía de Perfil
-Para realizar la actualización de la imagen de usuario, se debe utilizar el control enmarcado de la imagen Configuracion_identidad_fotodeperfil, el cual consiste en el botón "Seleccionar imagen" ubicado justo a un lado de la previsualización del avatar, permitiendo explorar los archivos locales del ordenador para cargar una nueva fotografía profesional o pegar una url de una imagen.
-
-III. CONFIGURACIÓN DE PERSONALIZACIÓN
-10. Configuración del Idioma de la Interfaz
-Para adecuar el sistema al idioma de su preferencia, el usuario dispone de los botones enmarcados de la imagen Configuracion_personalizacion_idioma, los cuales componen el selector denominado "Idioma de la interfaz" dentro del panel de personalización y permiten alternar de manera instantánea toda la plataforma entre las opciones de "ES" (Español), "EN" (English) o "BR" (Português).
-
-11. Selección del Tema de la Interfaz
-Con el fin de adaptar la experiencia visual, se pueden alternar las opciones enmarcadas de la imagen Configuracion_personalizacion_tema dentro del bloque "Tema de la interfaz", el cual proporciona tres botones de apariencia para configurar el entorno gráfico del dashboard en modalidad "Claro", modalidad "Oscuro" o modalidad "Sistema" según los ajustes de brillo del dispositivo.
-
-IV. CONFIGURACIÓN DE SEGURIDAD
-12. Iniciar Cambio de Contraseña
-Para actualizar la clave de acceso por motivos de protección, el usuario debe interactuar con el control enmarcado de la imagen Configuracion_seguridad_cambiarcontraseña1, haciendo clic sobre el botón morado "Solicitar cambio de contraseña" situado a la derecha del bloque de seguridad para que la plataforma autorice el formulario de reconfiguración.
-
-13. Validación de Código para Cambio de Contraseña
-Como medida de control en el cambio de clave, el usuario debe interactuar con los elementos enmarcados de la imagen Configuracion_seguridad_cambiarcontraseña2, introduciendo la clave de seguridad enviada a su correo en el campo "Código de verificación" y presionando después el botón morado "Verificar código" para desbloquear los campos de escritura.
-
-14. Confirmación de Nueva Contraseña
-Para ordenar y culminar de forma exitosa la reconfiguración de la clave, el usuario debe completar los campos de texto enmarcados de la imagen Configuracion_seguridad_cambiarcontraseña3, donde escribirá la clave elegida en el campo superior de "Contraseña nueva" y la repetirá en el campo inferior de "Confirmar nueva contraseña", presionando finalmente el botón morado "Actualizar contraseña".
-
-15. Iniciar Cambio de Correo Electrónico
-Para dar inicio a la modificación de la cuenta de acceso principal, el usuario debe presionar el control enmarcado de la imagen Configuracion_seguridad_cambiarcorreo1, el cual corresponde al botón morado "Solicitar cambio de correo" ubicado en el bloque lateral derecho de la sección para disparar el flujo seguro de validación de identidad.
-
-16. Validación de Código para Cambio de Correo
-En el segundo paso del flujo de correo, el usuario visualizará los elementos enmarcados de la imagen Configuracion_seguridad_cambiarcorreo2, debiendo ingresar el código numérico recibido en su casilla postal dentro del campo "Código de verificación" y presionar posteriormente el botón "Verificar código" para habilitar la edición de la nueva dirección.
-
-17. Guardar Nueva Dirección de Correo
-Para finalizar el proceso de actualización del correo electrónico, el usuario debe rellenar los elementos enmarcados de la imagen Configuracion_seguridad_cambiarcorreo3, ingresando la dirección inédita en el cuadro de texto de la ventana flotante y haciendo clic inmediatamente en el botón morado "Actualizar correo" para guardar la nueva credencial de acceso.
-
-18. Exportación de Datos de la Cuenta
-Para descargar un respaldo con toda la información técnica e interpersonal almacenada, el usuario debe dirigirse al bloque enmarcado de la imagen Configuracion_seguridad_exportardatos, donde al hacer clic en el botón "Exportar datos" el sistema procesará y descargará de manera automática un archivo estructurado con todo el historial del perfil.
-
-19. Eliminación Permanente de la Cuenta
-Para realizar la baja definitiva del perfil en la plataforma, el usuario debe dirigirse al área crítica enmarcada de la imagen Configuracion_seguridad_eliminarcuenta, localizando el apartado de advertencia "Zona de peligro" y haciendo clic sobre el botón rojo "Eliminar cuenta" para remover de forma irreversible toda la información del sistema.
+Para ir al apartado de configuración debe hacer clic en en el botón con un icono de engranaje que se aprecia en la imagen configuracion_reclutador_1
+el botón de "Identidad" muestra la sección entera para configurar el perfil como en la imagen configuracion_reclutador_2
+el boton de "Seleccionar Imagen" y el campo de "pega una URL de imagen" nos permite cambiar nuestra foto de perfil como en la imagen configuracion_reclutador_3
+el botón de "Guardar" en la imagen configuracion_reclutador_4 nos permite guardar nuestra foto de perfil
+los campos de "Nombre" y "Apellido" nos permiten colocar nuestro nombres y apellidos respectivo con un valor máximo de 80 caracteres como en la imagen configuracion_reclutador_5
+en el campo de "Empresa actual" podemos escribir la empresa que pertenecemos configuracion_reclutador_6
+en el campo de "Cargo en la empresa" podemos escribir nuestros cargos que tenemos en nuestra empresa como en la imagen configuracion_reclutador_7
+en el campo de "Ubicación" podemos escribir nuestra dirección actual como en la imagen configuracion_reclutador_8 con un valor máximo de 80 caracteres
+el botón con icono de un marcador en la imagen configuracion_reclutador_9 nos permite desplegar un mapa interactivo
+luego de hacer click en el icono de marcador vemos un modal de "Seleccionar ubicación" como en la imagen configuracion_reclutador_10
+en el campo de "Busca una dirección o lugar..." como en la imagen configuracion_reclutador_11 podemos buscar un lugar mediante calles, avenida, ciudad o país
+en el mapa interactivo si hacemos clic en alguna sección del mapa se muestra un icono de marcador como en la imagen configuracion_reclutador_12 que podemos arrastrar para marcar nuestra ubicación exacta
+el botón de "Cancelar" o "X" que es visible en la imagen configuracion_reclutador_13 nos permite al hacer clic cancelar o cerrar el modal de selección de ubicación
+el botón de "Confirmar" visible en la imagen configuracion_reclutador_14 nos permite confirmar nuestra ubicación y guardar con un autocompletado automatico
+el campo de "Telefono de contacto" visible en la imagen configuracion_reclutador_15 un telefono de contacto que tengamos con un máximo de 60 caracteres
+el botón "Guardar perfil" visible en la imagen configuracion_reclutador_16 al hacer clic guardar nuestros datos empresariales
+en la imagen configuracion_reclutador_17 vemos el llenado de nuestros datos empresariales
+los datos de empresa son posibles actualizarlos una vez que modifiques los campos y le demos clic al botón "Guardar perfil" como en la imagen configuracion_reclutador_18
+en la sección de "Sobre tu empresa" visible en la imagen configuracion_reclutador_19 podemos ingresar una pequeña biografia empresarial con un máximo de 500 caracteres
+el botón de "Guardar bio" visible en la imagen configuracion_reclutador_20 nos permite guardar nuestra biografia empresarial
+una vez completado el campo podemos observar que se guardar correctamente como en la imagen configuracion_reclutador_21
+para ir a la sección de personalización debemos hacer clic en "Personalización" como en la imagen configuracion_reclutador_22
+en la sección de "Tema de la Interfaz" visible en la imagen configuracion_reclutador_23 podemos hacer clic en "Claro" para seleccionar un modo claro de la plataforma
+el botón de "Oscuro" visible en la imagen configuracion_reclutador_24 al hacer clic cambia a modo oscuro toda la plataforma y el botón "Sistema" se adapta al tema del Navegador
+en la sección de "Idioma de la Interfaz" visible en la imagen configuracion_reclutador_25 podemos hacer clic en "ES" "EN" "BR" para seleccionar un idioma a nuestra elección
+para ir a seguridad debemos hacer clic en "Seguridad" como en la imagen configuracion_reclutador_26
+en la sección de "Cambiar contraseña" en el botón de "Solicitar cambio de contraseña" visible en la imagen configuracion_reclutador_27 podemos hacer clic para pedir un código en el correo asociado al momento de registrarse en la plataforma
+luego de hacer clic en la sección de "Codigo de verificación" en la imagen configuracion_reclutador_28 debemos ingresar un código que nos mando la plataforma a nuestro correo asociado
+en la imagen configuracion_reclutador_29 podemos ver el código que la plataforma envió a nuestro correo asociado a la cuenta
+el botón de "Volver" visible en la imagen configuracion_reclutador_30 nos permite volver y cancelar la accion de cambiar contraseña
+el botón "Verificar código" visible en la imagen configuracion_reclutador_31 nos permite verificar el código ingresado para avanzar al siguiente paso
+luego de avanzar al siguiente paso tenemos 2 campos donde debemos ingresar la nueva contraseña visible en la imagen configuracion_reclutador_32
+os botones con icono de ojos visibles en la imagen configuracion_reclutador_33 al hacer clic nos permiten ver la contraseña que ingresamos y tambien ocultar
+el botón "Actualizar contraseña" visible en la imagen configuracion_reclutador_34 nos permite cambiar nuestra contraseña por la nueva ingresada
+en la sección de "Cambiar correo electrónico" visible en la imagen configuracion_reclutador_35 en el botón de "Solicitar cambio de correo" al hacer clic nos envia un código a nuestro correo asociado
+en el campo de "Codigo de verificación" visible en la imagen configuracion_reclutador_36 debemos ingresar el código que nos mando la plataforma al correo
+en la imagen configuracion_reclutador_37 se ve el código que la plataforma nos envió para el cambio de correo electrónico
+el botón "Verificar código" visible en la imagen configuracion_reclutador_38 nos permite verificar el código ingresado para avanzar al siguiente paso
+luego de avanzar al siguiente paso tenemos un campo visible en la configuracion_reclutador_39 donde debemos ingresar un nuevo correo electrónico
+el botón "Actualizar correo" visible en la imagen configuracion_reclutador_40 al hacer clic nos permite cambiar nuestro correo por el nuevo ingresado
+el botón de "Volver" visible en la imagen configuracion_reclutador_41 nos permite volver y cancelar la accion de cambiar correo electrónico
+en la sección de "Exportar mis datos" el botón visible "Exportar datos" en la imagen configuracion_reclutador_42 al hacer clic permite que podamos descargar nuestros datos completos
+en la imagen configuracion_reclutador_43 se visualiza un modal de cargar de la exportación de datos
+una vez que termine de cargar la exportación de datos nos permite elegir la ubicación donde guardaremos nuestros datos con el nombre de la plataforma y fecha como en la imagen configuracion_reclutador_44
+en la sección de "Zona de peligro" el botón "Eliminar cuenta" visible en la imagen configuracion_reclutador_45 al hacer clic despliega un modal
+luego de que aparezca el modal los botones "Cancelar" y "Enviar código" visibles en la imagen configuracion_reclutador_46 que al hacer clic en cancelar cancela y cierra el modal y al hacer clic en enviar código nos manda al correo asociado
+luego de pedir el codigo a nuestro correo para eliminar la cuenta vemos un modal donde nos pide el codigo de verificacion como la imagen configuracion_reclutador_47
+en la imagen configuracion_reclutador_48 se visualiza el código que la plataforma nos mando al correo asociado
+en la imagen configuracion_reclutador_49 el boton de "Volver" nos permite cancelar la accion y volver hacia atras
+en la imagen configuracion_reclutador_50 el boton de "Confirmar eliminacion" y una vez agregado el codigo nos permite eliminar la cuenta
