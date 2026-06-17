@@ -1,9 +1,15 @@
-Al acceder a la plataforma y seleccionar la opción "Dashboard" en la barra de navegación en la imagen DashboardReclutador1.png, se despliega el resumen completo de tu gestión de adquisición de talento.
-
-En la parte superior, en la imagen DashboardReclutador2.png, encontrarás los indicadores clave de rendimiento (KPIs) actualizados semanalmente, que detallan el número de perfiles "Vistos", "Guardados", "Chats" iniciados y candidatos "Contratados".
-
-En la sección central, en la imagen DashboardReclutador3.png, se presenta el "Funnel de Conversión", una herramienta gráfica que te permite visualizar el estado actual y el flujo de tus candidatos a través de las diversas etapas del proceso de selección.
-
-Por otro lado, en la imagen DashboardReclutador4.png, se expone el "Radar de Mercado", el cual ofrece un análisis comparativo visual entre la demanda actual y la disponibilidad de las tecnologías más solicitadas, facilitando la toma de decisiones estratégicas.
-
-Finalmente, para dar continuidad al flujo de trabajo y localizar nuevos perfiles, puedes hacer clic en el botón "Explorar talento" situado en la parte inferior de la pantalla en la imagen DashboardReclutador5.png.
+Para ir al apartado de "Dashboard" debe hacer clic al botón "Dashboard" que se aprecia en la imagen DashboardReclutador1.png
+Al observar el botón "Vistos" visible en la imagen DashboardReclutador2.png podemos apreciar el conteo de candidatos vistos en los últimos 7 días
+Al seleccionar el botón "Vistos" nos llevara a la seccion Buscar Talento como es visible en la imagen DashboardReclutador2_1.png 
+Al observar el botón "Guardados" visible en la imagen DashboardReclutador3.png podemos apreciar el conteo de perfiles guardados en los últimos 7 días
+Al seleccionar el botón "Guardados" podemos apreciar el conteo de perfiles guardados en los últimos 7 días como se puede ver en la imagen  DashboardReclutador3_1.png
+Al observar el botón "Chats" visible en la imagen DashboardReclutador4.png podemos apreciar el número de chats activos registrados en los últimos 7 días
+Al seleccionar el botón "Chats" podemos apreciar el número de chats activos registrados en los últimos 7 días visible en la imagen DashboardReclutador4_1.png
+Al observar el botón "Contratados" visible en la imagen DashboardReclutador5.png podemos apreciar el número total de candidatos contratados
+Al seleccionar el botón "Contratados" podemos apreciar el número total de candidatos contratados visible en la imagen DashboardReclutador5_1.png
+El módulo "Insight de la semana" visible en la imagen DashboardReclutador6.png nos muestra un resumen automático del desempeño del reclutador
+El botón "Regenerar" visible en la imagen DashboardReclutador7.png nos permite actualizar el análisis de los insights de la semana
+Después de darle clic al botón "Regenerar" nos aparece la información actualizada en el módulo "Insight de la semana" como se ve en la imagen DashboardReclutador8.png
+El gráfico "Funnel de Conversión" visible en la imagen DashboardReclutador9.png nos permite visualizar el estado del proceso de los candidatos
+El gráfico "Radar de Mercado" visible en la imagen DashboardReclutador10.png nos permite comparar la demanda frente a la disponibilidad de tecnologías
+Al darle al botón de "Explorar talento" visible en la imagen DashboardReclutador11.png nos redirige a la sección de búsqueda de Talentos

@@ -1,7 +1,47 @@
-Al acceder a la sección de "Pipelines" en la barra de navegación en la imagen PipelinesReclutador1.png, podrás gestionar el flujo de tus candidatos a través de las diferentes etapas de selección, que incluyen "Guardados", "Revisión", "Entrevista", "Oferta" y "Contratado".
+Para ir al apartado de "Pipelines", debe hacer clic en el botón "Pipelines" que se aprecia en la imagen PipelinesReclutador1.png.
 
-Para gestionar un candidato individual, puedes hacer clic en el icono de opciones (los tres puntos) situado en su tarjeta en la imagen PipelinesReclutador1.png. Esto abrirá un menú desplegable en la imagen PipelinesReclutador2.png que te permite mover al candidato a otra etapa, añadir notas privadas, abrir un chat o eliminar el perfil.
+Al observar la columna de "Guardados" visible en la imagen PipelinesReclutador2.png, podemos apreciar la lista de candidatos que han sido seleccionados previamente.
 
-Si seleccionas la opción "Mover a..." en la imagen PipelinesReclutador2.png, se abrirá una ventana emergente en la imagen PipelinesReclutador3.png donde podrás elegir la nueva etapa para el candidato, actualizando así su posición en el tablero en la imagen PipelinesReclutador4.png.
+Al arrastrar un candidato a la columna de "Revisión", podemos avanzar su estado en el proceso de selección como se observa en la imagen PipelinesReclutador3.png.
 
-Adicionalmente, si optas por la función "Añadir nota privada" en la imagen PipelinesReclutador5.png, se desplegará un panel lateral en la imagen PipelinesReclutador6.png donde podrás redactar y guardar notas exclusivas para tu uso personal sobre dicho perfil.
+Al desplazar un perfil hacia la columna de "Entrevista", actualizamos su etapa en el pipeline como es visible en la imagen PipelinesReclutador4.png.
+
+Al mover un candidato a la columna de "Oferta", se registra su avance hacia la etapa final según se ve en la imagen PipelinesReclutador5.png.
+
+Al colocar a un perfil en la columna de "Contratado", finalizamos su flujo dentro del pipeline como se muestra en la imagen PipelinesReclutador6.png.
+
+Al observar el botón de tres puntos en la tarjeta de un candidato, visible en la imagen PipelinesReclutador7.png, podemos apreciar las acciones adicionales disponibles para ese perfil.
+
+Al seleccionar el botón de tres puntos se despliega un menú con las opciones para gestionar al candidato, como es visible en la imagen PipelinesReclutador8.png.
+
+Al hacer clic en la opción "Mover a..." del menú desplegable, podemos cambiar al candidato de etapa como se aprecia en la imagen PipelinesReclutador9.png.
+
+Al seleccionar "Mover a..." nos aparece la ventana emergente para elegir la nueva etapa del perfil, tal como se ve en la imagen PipelinesReclutador10.png.
+
+Al elegir la opción "Añadir nota privada" en el menú de acciones, podemos dejar comentarios confidenciales sobre el candidato como se ve en la imagen PipelinesReclutador11.png.
+
+Al hacer clic en el botón "Guardar nota" después de escribir en la ventana de notas privadas, registramos la información en el perfil como se muestra en la imagen PipelinesReclutador12.png.
+
+Al observar la sección de notas privadas dentro del perfil, visible en la imagen PipelinesReclutador13.png, podemos visualizar el historial de anotaciones guardadas.
+
+Al seleccionar la opción "Abrir chat" en el menú de acciones del candidato, podemos iniciar una comunicación directa como se ve en la imagen PipelinesReclutador14.png.
+
+Al darle clic a "Abrir chat" nos llevará a la sección de Chat donde aparecen las conversaciones vigentes con los candidatos, como es visible en la imagen PipelinesReclutador15.png.
+
+Al elegir la opción "Eliminar" en el menú de acciones, podemos descartar a un candidato del pipeline como se aprecia en la imagen PipelinesReclutador16.png.
+
+Después de confirmar la eliminación, aparece una notificación en la parte superior que confirma que el perfil fue removido, como se ve en la imagen PipelinesReclutador17.png.
+
+Al marcar las casillas de selección en varios perfiles, visible en la imagen PipelinesReclutador18.png, se activa la opción para compararlos.
+
+Al presionar el botón "Comparar" tras seleccionar los perfiles, se despliega la ventana de comparación como es visible en la imagen PipelinesReclutador19.png.
+
+Al observar la ventana del comparador de perfiles, visible en la imagen PipelinesReclutador20.png, podemos apreciar el desglose técnico y las habilidades de los candidatos.
+
+Al visualizar la parte inferior del comparador, podemos ver el gráfico de radar técnico comparativo como se muestra en la imagen PipelinesReclutador21.png.
+
+Al observar el área de "Veredicto Técnico IA", visible en la imagen PipelinesReclutador22.png, podemos ingresar un rol objetivo para obtener un análisis detallado.
+
+Al hacer clic en "Generar análisis" dentro del veredicto técnico, el sistema nos muestra los pros, contras y riesgos de los perfiles como se ve en la imagen PipelinesReclutador23.png.
+
+Al seleccionar el botón de cerrar en la ventana del comparador, volvemos a la vista principal del pipeline como es visible en la imagen PipelinesReclutador24.png.
