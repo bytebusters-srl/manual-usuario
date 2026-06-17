@@ -1,45 +1,110 @@
-Al entrar a la sección de Proyectos mira el menú que está a la izquierda de tu pantalla en la imagen CrearProyecto1.png. Haz clic en donde dice "Proyectos".
+Al acceder a la sección "Proyectos" desde el panel lateral izquierdo, observamos la vista de gestión principal con las opciones de filtrado y el botón para iniciar un nuevo proyecto, como se muestra en la imagen CrearProyecto1.png.
 
-Ahora, en la imagen CrearProyecto2.png, busca el botón grande de color morado que dice "Crear nuevo proyecto" en el centro de la pantalla y dale clic.
+Al visualizar el área central de la vista "Proyectos y Evidencias", identificamos el botón principal "Crear nuevo proyecto" que permite iniciar el proceso de registro, tal como se ilustra en la imagen CrearProyecto2.png.
 
-A continuación verás una ventana llamada "Crear nuevo proyecto" en la imagen CrearProyecto3.png donde se encuentran los siguientes campos a rellenar:
+Al abrir el formulario de creación, se nos presenta el paso 1, denominado "General", donde se solicita el título del proyecto (en este caso, "Nexus Auth"), visible en la imagen CrearProyecto3.png.
 
-Título: Escribe el nombre de tu proyecto en la imagen CrearProyecto4.png.
+Al observar el campo de categoría dentro del paso "General", podemos seleccionar el tipo de proyecto, siendo "Web" la opción elegida para este registro, como se aprecia en la imagen CrearProyecto4.png.
 
-Categoría: Selecciona la categoría en la imagen CrearProyecto5.png.
+Al completar el campo de descripción, detallamos el propósito del proyecto ("Sistema centralizado de autenticación OAuth2"), proceso visible en la imagen CrearProyecto5.png.
 
-Descripción: Redacta la información de tu trabajo en la imagen CrearProyecto6.png.
+La imagen CrearProyecto6.png confirma la correcta entrada de la descripción del proyecto en el formulario, manteniendo la coherencia con los datos solicitados.
 
-Estado inicial: Define el estado en la imagen CrearProyecto7.png.
+Al interactuar con el campo "Estado Inicial", se despliega un menú desplegable para definir la fase actual del proyecto, como se observa en la imagen CrearProyecto7.png.
 
-Rol: Indica tu rol en el proyecto en la imagen CrearProyecto8.png.
+La imagen CrearProyecto8.png muestra las opciones disponibles dentro del selector de estado ("Borrador", "En progreso", "Completado", "Archivado"), permitiendo definir el estatus inicial correctamente.
 
-Configuración: Asegúrate de marcar "Proyecto público" si quieres que el proyecto sea publico, pero si no dejalo desmarcado (CrearProyecto9.png) y marca "Destacado en portafolio" si quieres destacar tu portafolio, en caso de que no dejalo desmarcado (CrearProyecto10.png).
+Al definir el rol del usuario en el proyecto, el campo "Rol en el proyecto" permite especificar la responsabilidad, la cual se ha configurado como "Lead Dev" en la imagen CrearProyecto9.png.
 
-Al terminar esto, presiona el botón morado que dice "Continuar" abajo a la derecha en la imagen CrearProyecto10.png.
+Al configurar la visibilidad, la opción "Proyecto público" cuenta con un interruptor (toggle) que, al activarse, permite que el proyecto sea visible para otros usuarios, como se detalla en la imagen CrearProyecto10.png.
 
-En la ventana de la imagen CrearProyecto11.png (pestaña Técnica), rellena lo siguiente:
+Al configurar la visibilidad, identificamos el interruptor "Destacado en portafolio", que permite determinar si el proyecto se mostrará en la sección principal, como se ilustra en la imagen CrearProyecto11.png.
 
-Fecha de inicio: Haz clic en el icono de calendario en la imagen CrearProyecto11.png.
+Al interactuar con el formulario, hacemos clic en el botón "Continuar" para avanzar desde la pantalla de información general hacia los detalles técnicos, proceso visible en la imagen CrearProyecto12.png
 
-Fecha de fin: Haz clic en el icono de calendario en la imagen CrearProyecto12.png.
+Al observar el formulario de información general, identificamos la opción "Cancelar" para interrumpir el proceso de creación, tal como se aprecia en la imagen CrearProyecto13.png.
 
-Repositorio GitHub: Pega aquí el enlace en la imagen CrearProyecto13.png.
+Al acceder al paso 2 del asistente, se nos presenta la pantalla "Técnico", donde se solicitan los detalles de fechas, repositorio y tecnologías, visible en la imagen CrearProyecto14.png.
 
-Tecnologías utilizadas: Escribe el nombre de la tecnología y presiona el botón "+ Añadir" en la imagen CrearProyecto14.png.
+Al interactuar con el campo "Fecha de inicio", se activa el selector de calendario para configurar el inicio del proyecto, como se observa en la imagen CrearProyecto15.png.
 
-Resultados obtenidos: Escribe qué lograste en la imagen CrearProyecto15.png.
+La imagen CrearProyecto16.png confirma la selección del "02/05/2024" como la fecha de inicio establecida en el formulario.
 
-Cuando termines, vuelve a presionar el botón morado "Continuar" en la imagen CrearProyecto15.png.
+Al seleccionar el campo "Fecha de fin", se despliega la interfaz del calendario para definir la conclusión del proyecto, tal como se muestra en la imagen CrearProyecto17.png.
 
-En la imagen CrearProyecto5.png (que corresponde a la vista de Media en CrearProyecto16.png), elige una imagen de portada para que tu proyecto se vea bien. Puedes hacer clic en uno de los cuadrados de colores predefinidos (como "Violet Space" o "Matrix").
+La imagen CrearProyecto18.png ilustra la fecha de fin seleccionada como "02/03/2025" mediante el uso del calendario.
 
-A continuación, en la imagen CrearProyecto17.png:
+Al observar el campo "Repositorio GitHub", confirmamos que la URL del repositorio ha sido ingresada correctamente, proceso que se detalla en la imagen CrearProyecto19.png.
 
-Enlaces y recursos: Pega el enlace en la barra blanca y presiona "+ Añadir".
+Al visualizar el área de "Tecnologías utilizadas" en el paso 2, observamos la inclusión de añadir tecnologias como ser "React" y el botón para añadir tecnologías adicionales, tal como se muestra en la imagen CrearProyecto20.png.
 
-Luego, en la imagen CrearProyecto18.png:
+Al finalizar la configuración en la pantalla "Técnico", el botón "Continuar" aparece habilitado para proceder al siguiente paso
+,observamos el campo de texto "Resultados obtenidos" donde se detalla el impacto del proyecto, como se observa en la imagen CrearProyecto21.png.
 
-Documentos: Puedes arrastrar archivos (como un PDF) al recuadro punteado.
+Al interactuar con los controles de navegación, el botón "Atrás" permite regresar a la configuración anterior, tal como se detalla en la imagen CrearProyecto22.png.
 
-Y finalmente, en la imagen CrearProyecto18.png, presiona el botón morado que dice "Crear proyecto" abajo a la derecha para terminar todo el proceso.
+Tambien podemos observar el botón "Cancelar" que permite finalizar la edición en el paso 2 y cerrar el formulario, como se muestra en la imagen CrearProyecto23.png.
+
+Tambien esta el boton "Continuar" que nos permite avanzar a la siguiente seccion del formulario, como se ve en la imagen CrearProyecto24.png
+
+Al iniciar el paso 3 "Media", se nos presenta la interfaz para elegir una portada predefinida o cargar archivos, visible en la imagen CrearProyecto25.png.
+
+Al explorar las portadas predefinidas, seleccionamos la opción "Violet Space" para personalizar el aspecto del proyecto, como se ilustra en la imagen CrearProyecto26.png.
+
+Al enfocarnos en la sección de "Imagen personalizada", identificamos el área habilitada para subir o arrastrar archivos, tal como se aprecia en la imagen CrearProyecto27.png.
+
+La imagen CrearProyecto28.png confirma la carga exitosa de una imagen personalizada, mostrando el logo de "NEXUS" dentro del formulario.
+
+Al utilizar la opción de carga por enlace, el campo "URL de imagen" permite integrar recursos externos, proceso visible en la imagen CrearProyecto29.png.
+
+La imagen CrearProyecto30.png ilustra el resultado al presionar "Previsualizar", mostrando la imagen cargada a través de la URL proporcionada.
+
+Tambien observamos el campo "Enlaces y Recursos" que permite integrar plataformas externas como YouTube o Figma mediante el botón "Añadir", como se aprecia en la imagen CrearProyecto31.png.
+
+La imagen CrearProyecto32.png muestra la correcta incorporación de un enlace a un video de YouTube, incluyendo la opción de eliminar el recurso mediante el icono de la papelera.
+
+Al descender en el formulario, identificamos el área de "Documentos", donde el sistema habilita la carga de archivos PDF mediante arrastrar y soltar, como se detalla en la imagen CrearProyecto33.png.
+
+Al utilizar la función para documentos externos, el campo específico permite vincular archivos de Google Drive mediante el botón "Añadir", proceso visible en la imagen CrearProyecto34.png.
+
+La imagen CrearProyecto35.jpg confirma la correcta gestión de múltiples documentos, mostrando tanto el archivo cargado localmente como el enlace externo bajo la categoría de documentos.
+
+Al finalizar la configuración en el paso 3, el botón "Crear proyecto" queda habilitado para guardar toda la información ingresada, tal como se observa en la imagen CrearProyecto36.png.
+
+La imagen CrearProyecto37.png muestra la confirmación visual en la parte superior derecha, indicando que el proyecto se ha registrado exitosamente en el sistema.
+
+
+Al volver a la vista principal, observamos el listado actualizado donde aparece el proyecto "Nexus Auth" junto a los controles de filtrado, como se detalla en la imagen CrearProyecto38.png.
+
+Al observar la vista general de "Proyectos y Evidencias", identificamos algunos filtros para clasificar proyectos, tal como se muestra en la imagen CrearProyecto39.png.
+
+Tambien al observar la vista general de "Proyectos y Evidencias", identificamos el filtro desplegable para clasificar los proyectos según su estado actual, tal como se muestra en la imagen CrearProyecto40.png.
+
+Al observar la vista general de "Proyectos y Evidencias", identificamos el filtro de "Destacados primero", tal como se muestra en la imagen CrearProyecto41.png.
+
+Al interactuar con el selector de ordenamiento en la parte superior derecha, identificamos el campo "Destacados primero" que permite organizar la visualización, tal como se aprecia en la imagen CrearProyecto42.png.
+
+Al observar el área de estadísticas del panel, identificamos el recuento de proyectos registrados en la plataforma, como se detalla en la imagen CrearProyecto43.png.
+
+Al ubicar el botón principal de la sección "Proyectos y Evidencias", confirmamos el acceso para crear un nuevo proyecto mediante "Agregar proyecto", proceso ilustrado en la imagen CrearProyecto44.png.
+
+Al iniciar el formulario de creacion, se nos presenta el asistente de registro con el primer paso configurado en "General", tal como se muestra en la imagen CrearProyecto45.png.
+
+En la imagen CrearProyecto46.png. se puede observar que en el proyecto creado existe 3 funcionalidades, la primera y la que se ve es poder "Ver a detalle" un proyecto creado
+
+La imagen CrearProyecto47.png ilustra la vista detallada del proyecto, presentando la información técnica, los resultados, el impacto y la gestión de documentos asociados.
+
+Al volver a la vista principal, identificamos el icono del lápiz sobre la tarjeta del proyecto, el cual permite acceder a la función de edición, tal como se detalla en la imagen CrearProyecto48.png.
+
+Al activar la edición, el formulario cambia su título a "Editar proyecto" y permite modificar los datos que deseemos antes de finalizar con "Actualizar proyecto", como se aprecia en la imagen CrearProyecto49.png.
+
+Al volver a la vista principal, identificamos el icono del "basurero" que nos permite eliminar un proyecto tal como se ve en la imagen CrearProyecto50.png.
+
+Al confirmar la eliminación de un proyecto, aparece un diálogo de advertencia que solicita al usuario verificar la acción antes de proceder, como se muestra en la imagen CrearProyecto51.png.
+
+Una vez completada la eliminación, el sistema muestra una notificación de confirmación en la esquina superior derecha e indica que actualmente no existen proyectos registrados, tal como se aprecia en la imagen CrearProyecto52.png.
+
+
+
+
+Al observar la tarjeta del proyecto "Nexus Auth" en la vista principal, identificamos el icono de la papelera que permite eliminar el proyecto, como se muestra en la imagen CrearProyecto41.png.
