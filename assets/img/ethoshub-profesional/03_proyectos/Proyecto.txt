@@ -107,4 +107,3 @@ Una vez completada la eliminación, el sistema muestra una notificación de conf
 
 
 
-Al observar la tarjeta del proyecto "Nexus Auth" en la vista principal, identificamos el icono de la papelera que permite eliminar el proyecto, como se muestra en la imagen CrearProyecto41.png.
