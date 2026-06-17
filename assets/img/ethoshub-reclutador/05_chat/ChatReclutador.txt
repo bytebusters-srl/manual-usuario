@@ -1,15 +1,65 @@
-Al acceder a la sección de "Chat" en la barra de navegación en la imagen ChatReclutador1.png, accederás al panel central de mensajería donde puedes gestionar todas tus conversaciones activas con los candidatos.
+Al hacer clic en el botón "Chat" de la barra superior, accedemos a la interfaz principal de comunicación, tal como se muestra en la imagen ChatReclutador1.png.
 
-En el panel izquierdo en la imagen ChatReclutador4.png, puedes utilizar la barra de búsqueda para localizar rápidamente a cualquier candidato por su nombre, lo cual filtrará tu lista de contactos activos en la imagen ChatReclutador5.png.
+Al seleccionar a un candidato en el panel lateral izquierdo, se despliega el historial de conversación en el área central, como se observa en la imagen ChatReclutador2.png.
 
-Al seleccionar una conversación, puedes visualizar el historial del chat en la imagen ChatReclutador2.png. Si deseas consultar los detalles del perfil del candidato con quien estás hablando, puedes presionar el icono de información situado en la esquina superior derecha en la imagen ChatReclutador3.png, lo cual abrirá un panel lateral con su ficha profesional.
+Al redactar un mensaje en la barra inferior y presionar el icono de enviar (avión de papel), se incorpora el nuevo texto al historial, como se aprecia en la imagen ChatReclutador3.png.
 
-Para enriquecer tus interacciones, en la parte inferior del chat dispones de diversas herramientas de comunicación:
+Al hacer clic en el icono del clip, ubicado a la izquierda de la barra de entrada, se abre la función para adjuntar archivos, como se muestra en la imagen ChatReclutador4.png.
 
-Adjuntar archivos: Haz clic en el icono del clip en la imagen ChatReclutador6.png para enviar documentos o archivos al candidato.
+Al seleccionar y cargar un archivo (como un documento .docx), este aparece con su peso en KB y permite el envío, tal como se ilustra en la imagen ChatReclutador5.png.
 
-Mensajes de voz: Selecciona el icono del micrófono en la imagen ChatReclutador7.png para grabar y enviar notas de audio.
+Al ver la interfaz tras adjuntar el archivo, contamos con un botón marcado con una "x" para cancelar el envío si fuera necesario, visible en la imagen ChatReclutador6.png.
 
-Enviar imágenes: Utiliza el icono de la cámara en la imagen ChatReclutador8.png para compartir fotografías directamente en la conversación.
+Al identificar el icono del micrófono en la barra de entrada, podemos activar la herramienta para grabar notas de voz, como se ve en la imagen ChatReclutador7.png.
 
-Emoticonos: Haz clic en el icono de cara sonriente en la imagen ChatReclutador9.png (que corresponde al panel desplegado) para insertar emojis en tus mensajes.
+Al iniciar la grabación, se despliega una ventana emergente que muestra el tiempo transcurrido y ofrece un botón central para detener la captura, tal como aparece en la imagen ChatReclutador8.png.
+
+Durante el proceso de grabación de audio, se dispone de un icono de "x" en la esquina superior derecha de la ventana emergente para cancelar la operación, como se observa en la imagen ChatReclutador9.png.
+
+Durante el proceso de grabación de audio, se dispone de un boton "reiniciar" repetir la grabacion, como se observa en la imagen ChatReclutador10.png.
+
+Al observar la ventana de previsualización del audio grabado, visible en la imagen ChatReclutador11.png, podemos hacer clic en el botón "Enviar" para compartirlo con el candidato.
+
+Al hacer clic en el icono de los tres puntos verticales sobre la barra de reproducción de audio, visible en la imagen ChatReclutador12.png. se despliega un menú de opciones adicionales.
+
+Al seleccionar el menú desplegable en la barra de audio, visible en la imagen ChatReclutador13.png. podemos elegir entre descargar el archivo o ajustar la velocidad de reproducción.
+
+Al visualizar el área de mensajes, como se muestra en la imagen ChatReclutador14.png. podemos confirmar que el archivo de audio ahora aparece adjunto en el chat antes de enviarlo definitivamente.
+
+Al observar el historial del chat en la imagen ChatReclutador15.png. podemos ver cómo queda registrado el audio enviado junto a otros documentos previamente compartidos.
+
+Al hacer clic en el icono de la cámara en la barra de entrada, visible en la imagen ChatReclutador15.png. podemos abrir la herramienta para tomar una fotografía.
+
+Al presionar el botón de disparo dentro de la herramienta de cámara, visible en la imagen ChatReclutador16.png. capturamos la imagen deseada.
+
+Al visualizar la imagen capturada, como se ve en la imagen ChatReclutador17.png. tenemos la opción de hacer clic en "Repetir" si deseamos tomar una nueva fotografía.
+
+Al hacer clic en el botón "Enviar" tras capturar la fotografía, visible en la imagen ChatReclutador18.png. procedemos a compartir la imagen tomada con el candidato.
+
+Al observar la esquina superior derecha del chat, visible en la imagen ChatReclutador19.png. podemos identificar el icono de "X" destinado a eliminar la fotografia
+
+Al adjuntar un archivo como una imagen en el chat, se visualiza en la parte inferior de la interfaz con su peso en kb y la opcion de enviar la fotografia como se muestra en la imagen ChatReclutador20.png.
+
+Tambien al adjuntar una fotografia en el chat, se visualiza en la parte inferior de la interfaz con una opción marcada con una "x" para cancelar el envío, tal como se muestra en la imagen ChatReclutador21.png.
+
+Al estar en el modo de grabación de video, es posible seleccionar la pestaña "Video" para configurar la herramienta antes de iniciar la captura, como se aprecia en la imagen ChatReclutador22.png.
+
+Tras realizar una grabación de video, aparece la opción "Repetir" que permite descartar el video capturado y volver a intentarlo, visible en la imagen ChatReclutador23.png.
+
+Al finalizar la grabación de video, se habilita el botón "Enviar" en color azul para confirmar y compartir el archivo multimedia con el candidato, como se observa en la imagen ChatReclutador24.png.
+
+En la ventana de grabación de video, se puede observar un icono de "x" en la parte superior derecha que permite cerrar la herramienta sin realizar envíos, visible en la imagen ChatReclutador25.png.
+
+Al visualizar el área de entrada de mensajes, se identifica un icono de carita feliz que permite acceder al selector de emojis, como se aprecia en la imagen ChatReclutador26.png.
+
+Al activar el selector de emojis, se despliega un panel con categorías y una barra de búsqueda para localizar rápidamente el emoji deseado, tal como se ve en la imagen ChatReclutador27.png.
+
+Una vez seleccionados los emojis, estos se integran en la caja de texto y se pueden enviar haciendo clic en el icono del avión de papel, como se ilustra en la imagen ChatReclutador28.png.
+
+Al hacer clic en el icono de información "i" situado en la parte superior derecha, se abre un panel lateral con el perfil completo del candidato, incluyendo sus habilidades y datos de contacto, visible en la imagen ChatReclutador29.png.
+
+Para eliminar un chat hacemos click en el icono de eliminacion como se ve en la imagen ChatReclutador30.png
+
+Al confirmar la eliminación de la conversación, se muestra una ventana emergente que solicita una última validación mediante el botón "Eliminar", tal como se aprecia en la imagen ChatReclutador31.png.
+
+Al completarse el proceso de eliminación, aparece una notificación en la parte superior derecha que indica que la "Conversación eliminada de tu vista", permitiendo observar la lista actualizada de otros candidatos en el panel lateral izquierdo, tal como se ve en la imagen ChatReclutador32.png.

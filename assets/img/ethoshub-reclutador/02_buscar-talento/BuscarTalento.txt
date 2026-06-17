@@ -1,9 +1,67 @@
-Al acceder a la sección de búsqueda de candidatos seleccionando "Buscar Talento" en la barra de navegación en la imagen BuscarTalento1.png, accederás al panel principal de gestión de candidatos.
+Para ir al apartado de "Buscar Talento" debe hacer clic al botón "Buscar Talento" que se aprecia en la imagen BuscarTalento1.png
 
-En la parte superior, en la imagen BuscarTalento2.png, encontrarás un resumen de tu actividad actual, incluyendo el número de "Perfiles guardados", "Chats activos" y "Talentos explorados".
+Al observar el botón de flecha en la tarjeta de "Perfiles guardados" visible en la imagen BuscarTalento2.png podemos apreciar la opción para ver el detalle de los candidatos guardados
 
-Para realizar una búsqueda específica, puedes utilizar el campo de "Búsqueda inteligente" en la imagen BuscarTalento3.png, donde puedes ingresar consultas en lenguaje natural para encontrar perfiles que se ajusten a tus necesidades.
+Al seleccionar el botón de flecha en "Perfiles guardados" nos llevara a la sección Pipelines como es visible en la imagen BuscarTalento3.png
 
-En la sección central, en la imagen BuscarTalento4.png, se visualizarán los candidatos que coinciden con tu búsqueda. Desde este panel, puedes interactuar directamente con ellos haciendo clic en los botones de "Chat", "Guardar" o "Ver Perfil" en la imagen BuscarTalento7.png.
+Al observar el botón de flecha en la tarjeta de "Chats activos" visible en la imagen BuscarTalento4.png podemos apreciar la opción para revisar las conversaciones vigentes
 
-Si requieres aplicar criterios específicos para refinar tu búsqueda, puedes hacer clic en el botón "Filtros Avanzados" en la imagen BuscarTalento5.png o en la imagen BuscarTalento6.png. Esto abrirá un menú emergente en la imagen BuscarTalento8.png que permite segmentar a los candidatos por nivel, años de experiencia, disponibilidad, tipo de perfil, educación, trayectoria y habilidades técnicas específicas antes de pulsar "Ver perfiles".
+Al seleccionar el botón de flecha en "Chats activos" nos llevara a la sección Chat como es visible en la imagen BuscarTalento5.png
+
+Al observar el botón de flecha en la tarjeta de "Talentos explorados" visible en la imagen BuscarTalento6.png podemos apreciar la opción para ver el historial de perfiles explorados
+
+El módulo "Búsqueda inteligente" visible en la imagen BuscarTalento7.png nos permite realizar búsquedas avanzadas ingresando descripciones naturales
+
+El botón "Buscar" visible en la imagen BuscarTalento8.png nos permite ejecutar la solicitud redactada en el campo de búsqueda inteligente
+
+Después de darle clic al botón "Buscar" nos aparece el candidato compatible con los criterios ingresados como se ve en la imagen BuscarTalento9.png
+
+Al observar el campo "TRAYECTORIA (EMPRESA)" visible en la imagen BuscarTalento10.png podemos apreciar cómo la inteligencia artificial autocompletó el filtro de forma automática
+
+En caso de querer limpiar dicha busqueda seleccionamos "Limpiar todo" como podemos apreciar en la imagen BuscarTalento11.png
+
+El botón "Desactivar match IA" visible en la imagen BuscarTalento12.png nos permite limpiar los resultados actuales de la búsqueda inteligente.
+
+Al observar el tablero general visible en la imagen BuscarTalento13.png podemos apreciar diversos perfiles encontrados junto con el botón de "Filtros Avanzados".
+
+Al observar la barra de búsqueda central visible en la imagen BuscarTalento14.jpg podemos apreciar cómo el sistema permite realizar búsquedas manuales.
+
+Después de escribir un término en la barra de búsqueda nos aparece el candidato localizado como se ve en la imagen BuscarTalento15.png.
+
+El botón "Filtros Avanzados" visible en la imagen BuscarTalento16.png nos permite acceder a las opciones de segmentación.
+
+Al observar el modal de filtros visible en la imagen BuscarTalento17.png podemos apreciar que se ha seleccionado el filtro de nivel "Mid" y el país "Bolivia".
+
+El apartado "Nivel" visible en la imagen BuscarTalento18.png nos permite seleccionar entre las categorías de Junior, Mid, Senior, Lead y Architect.
+
+El apartado "Experiencia" visible en la imagen BuscarTalento19.png nos permite seleccionar opciones de rangos de años de trayectoria profesional.
+
+El apartado "Disponibilidad" visible en la imagen BuscarTalento20.png nos permite segmentar candidatos por su estado laboral.
+
+La sección "TIPO DE PERFIL" visible en la imagen BuscarTalento21.png nos permite elegir opciones como Frontend, Backend, DevOps, Data, Mobile, QA y Systems.
+
+El campo "EDUCACIÓN (INSTITUCIÓN)" visible en la imagen BuscarTalento22.png nos permite ingresar el nombre de la universidad.
+
+El campo "TRAYECTORIA (EMPRESA)" visible en la imagen BuscarTalento23.png nos permite especificar la empresa como criterio de búsqueda.
+
+El selector de "PAÍS" visible en la imagen BuscarTalento24.png nos permite elegir el país específico para la búsqueda.
+
+El campo "SKILLS & TECNOLOGÍAS" visible en la imagen BuscarTalento25.png nos permite añadir nuevas habilidades mediante el botón "+".
+
+El botón "Ver 1 perfiles" visible en la imagen BuscarTalento26.png nos permite ejecutar la acción de filtrado.
+
+Después de darle clic al botón de filtrado nos aparece la cantidad de perfiles encontrados como se ve en la imagen BuscarTalento27.png.
+
+El botón "Limpiar todo" visible en la imagen BuscarTalento28.png nos permite eliminar todos los criterios de búsqueda establecidos.
+
+Después de darle clic al botón "Limpiar todo" nos aparece una vista actualizada con los perfiles disponibles como se ve en la imagen BuscarTalento29.png.
+
+Al seleccionar el botón "Ver Perfil" en la imagen BuscarTalento30.jpg. podemos apreciar el detalle completo de la trayectoria del candidato visible en la imagen BuscarTalento31.jpg.
+
+Al observar el botón "Corazón" visible en la imagen BuscarTalento32.png podemos apreciar la opción para guardar al candidato en la pipeline.
+
+Después de darle clic al botón "Corazón" nos aparece el mensaje "Guardado en pipeline" como se ve en la imagen BuscarTalento33.png.
+
+El botón "Chat" visible en la imagen BuscarTalento34.png nos permite iniciar una comunicación directa con el candidato seleccionado.
+
+Al seleccionar el botón "Chat" nos redirige a la bandeja de mensajes visible en la imagen BuscarTalento35.png.

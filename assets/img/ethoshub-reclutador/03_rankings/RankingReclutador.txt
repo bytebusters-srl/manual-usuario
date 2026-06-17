@@ -1,7 +1,19 @@
-Al acceder a la sección de "Rankings" en la barra de navegación en la imagen RankingReclutador1.png, podrás visualizar a los candidatos más destacados de la plataforma según su desempeño y habilidades.
+Para ir al apartado de "Rankings", debe hacer clic en el botón "Rankings" que se aprecia en la imagen RankingReclutador1.png
 
-En la parte superior derecha, en la imagen RankingReclutador4.png, encontrarás filtros que te permiten segmentar el ranking por categorías específicas, tales como "General", "Frontend", "Backend", "Data", "Infra" y "Mobile".
+Al observar el botón "General" en la parte superior, visible en la imagen RankingReclutador2.png, podemos apreciar la opción para visualizar el ranking de talento general
 
-Al identificar a un candidato posicionado en el ranking, puedes presionar el botón "¿Por qué #1?" en la imagen RankingReclutador2.png para obtener más detalles sobre su evaluación.
+Al seleccionar el botón "General", se despliega la vista del ranking global como es visible en la imagen RankingReclutador3.png
 
-Esto desplegará una ventana emergente en la imagen RankingReclutador3.png, la cual explica las razones técnicas por las que el candidato ocupa dicha posición, destacando sus habilidades más relevantes y su puntuación combinada en actividad y desempeño, lo que lo posiciona como un talento prometedor.
+Al observar el botón "Frontend" en la parte superior, visible en la imagen RankingReclutador4.png, podemos apreciar la opción para filtrar el ranking por habilidades frontend
+
+Al seleccionar el botón "Backend" en la parte superior, visible en la imagen RankingReclutador5.png, podemos apreciar la opción para filtrar el ranking por habilidades backend
+
+Al observar el botón "Data" en la parte superior, visible en la imagen RankingReclutador6.png, podemos apreciar la opción para filtrar el ranking por habilidades en datos
+
+Al seleccionar el botón "Infra" en la parte superior, visible en la imagen RankingReclutador7.png, podemos apreciar la opción para filtrar el ranking por habilidades en infraestructura
+
+Al observar el botón "Mobile" en la parte superior, visible en la imagen RankingReclutador8.png, podemos apreciar la opción para filtrar el ranking por habilidades en desarrollo móvil
+
+El botón "¿Por qué #1?" visible en la imagen RankingReclutador9.png nos permite conocer los motivos detallados por los cuales un candidato ocupa la primera posición
+
+Al darle clic al botón "¿Por qué #1?" nos aparece una ventana emergente que explica la competencia del candidato seleccionado, tal como se ve en la imagen RankingReclutador10.png
