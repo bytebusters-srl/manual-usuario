@@ -43,12 +43,12 @@
 % con su leyenda numerada. Tras la segunda captura de la página fuerza un salto
 % para respetar el máximo de dos imágenes por página.
 \newcommand{\captura}[2]{%
-  \par\vspace{0.25cm}%
+  \par\vspace{0.1cm}%
   \begin{center}%
     \includegraphics[width=0.9\textwidth,height=0.42\textheight,keepaspectratio]{#1}%
     \captionof{figure}{#2}%
   \end{center}%
-  \vspace{0.15cm}%
+  \vspace{0.1cm}%
   \stepcounter{capturasEnPagina}%
   \ifnum\value{capturasEnPagina}>1\relax
      \setcounter{capturasEnPagina}{0}%
