@@ -1,0 +1,21 @@
+Demostracion del responsive del apartado de Mi portafolio en la imagen con nombre responsive_mi_portafolio
+Demostracion del responsive del apartado de Habilidades en la imagen con nombre responsive_habilidades
+Demostracion del responsive del apartado de Habilidades para agregar una nueva hard skill en la imagen con nombre responsive_habilidades_hard
+Demostracion del responsive del apartado de Habilidades para agregar una nueva soft skill en la imagen con conmbre responsive_habilidades_soft
+Demostracion del responsive del apartado de proyectos en la imagen con nombre responsive_proyectos
+Demostracion del responsive del apartado del formulario para proyectos en la imangen con nombre responsive_formulario_proyectos
+Demostracion del responsive del apartado de experiencia en la imagen con nombre responsive_experiencia
+Demostracion del responsive del apartado del formulario para experiencia en la imagen con nombre responsive_formulario_experiencia
+Demostracion del responsive del apartado de la continuacion del formulario para experiencia en la imagen con nombre responsive_formulario_experiencia2
+Demostracion del responsive del apartado de educacion en la imagen con nombre responsive_educacion
+Demostracion del responsive del apartado del formulario para educacion en la imagen con nombre responsive_formulario_educacion
+Demostracion del responsive del apartado de la continuacion del formulario de educacion en la imagen con nombre responsive_formulario_educacion2
+Demostracion del responsive del apartado de CV Studio en la imagen con nombre responsive_CVstudio
+Demostracion del responsive del apartado de Chat en la imagen con nombre responsive_chat
+Demostracion del responsive del apartado de un Chat ya iniciado en la imagen con nombre responsive_chat_iniciado
+Demostracion del responsive del apartado de conexiones en la imagen con nombre responsive_conexiones
+Demostracion del responsive del apartado de configuracion en la imagen con nombre responsive_configuracion
+Demostracion del responsive del apartado de configuracion para rellenar campos en la imagen con nombre responsive_configuracion_campos
+Demostracion del responsive del aparatdo de configuracion pestaña personalizacion en la imagen con nombre responsive_configuracion_personalizacion
+Demostracion del responsive del apartado de configuracion pestaña seguridad en la imagen con nombre responsive_configuracion_seguridad
+Demostracion del responsive del apartado del desplegable de la barra lateral en la imagen con nombre responsive_barra_lateral

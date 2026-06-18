@@ -1,0 +1,7 @@
+Demostracion del responsive del apartado de el dashboard del reclutador en la imagen responsive_dashboard
+Demostracion del responsive del apartado de el dashboard del reclutador sobre el apartado de las graficas en la imagen responsive_dashboard_graficas
+Demostracion del responsive del apartado de buscar talento del reclutador en la imagen responsive_buscar_talento
+Demostracion del responsive del apartado de rankings del reclutador en la imagen responsive_rankings
+Demostracion del responsive del apartado de pipelines del reclutador en la iamgen responsive_pipelines
+Demostracion del responsive del apartado de el chat del reclutador en la imagen responsive_chat_reclutador
+Demostracion del responsive del apartado de el chat del reclutador ya iniciado en la imagen responsive_chat_iniciado_reclutador

@@ -1,0 +1,9 @@
+Demostracion del responsive del apartado de Metricas Globales para admin en la imagen con nombre responsive_metricas_globales
+Demostracion del responsive del apartado de las tendencias en Metricas Globales para admin en la imagen con nombre responsive_metricas_globales_tendencias
+Demostracion del responsive del apartado de las top skills en Metricas Globales para admin en la imagen con nombre responsive_metricas_globales_top_skills
+Demostracion del responsive del apartado de los sistamsa y logs en Metricas Globales para admin en la imagen con nombre responsive_metricas_globales_sistemas_logs
+Demostracion del responsive del apartado de gestion de perfiles para admin en la imagen con nombre responsive_gestion_perfiles
+Demostracion del responsive del apartado de moderacion para admin en la imagen con nombre responsive_moderacion
+Demostracion del responsive del apartado de skills para admin en la imagen con nombre responsive_skills
+Demostracion del responsive del apartado de skills para agregar skills para admin en la imagen con nombre responsive_skills_agregar
+Demostracion del responsive del apartado de email para admin en la imagen con nombre responsive_email
