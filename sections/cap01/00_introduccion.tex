@@ -1,0 +1,143 @@
+% =============================================================================
+% CAPÍTULO 1 — INTRODUCCIÓN
+% =============================================================================
+\chapter{Introducción}
+\label{ch:introduccion}
+\resumenCapitulo{Este capítulo presenta el propósito, el alcance y el público objetivo
+del manual, y describe las convenciones tipográficas y visuales que se emplean a lo
+largo del documento para guiar a la persona usuaria paso a paso.}
+
+% -----------------------------------------------------------------------------
+\section{Propósito del Documento}
+\label{sec:proposito}
+
+El presente \textbf{Manual del Sistema para Perfiles} tiene como propósito guiar a las
+personas usuarias de la plataforma \textbf{EthosHub} en el uso correcto y completo de
+todas las funciones disponibles según su perfil. EthosHub es un sistema de gestión de
+talento y reclutamiento basado en valores, en el que las personas profesionales
+construyen su portafolio digital, las personas reclutadoras buscan y evalúan talento, y
+el personal administrador supervisa la operación de la plataforma.
+
+A diferencia del manual técnico —orientado a la arquitectura y al mantenimiento del
+software— este documento describe el \textit{qué} y el \textit{cómo} desde la
+perspectiva de quien opera el sistema: dónde hacer clic, qué datos introducir y qué
+resultado esperar después de cada acción.
+
+\begin{AvisoNota}
+Cada procedimiento de este manual se acompaña de capturas de pantalla reales del
+sistema. Las instrucciones están redactadas en orden secuencial: basta con seguir los
+pasos en el orden presentado para completar cada tarea con éxito.
+\end{AvisoNota}
+
+\paragraph{Conformidad normativa.} Este manual se elabora conforme al estándar
+\textbf{ISO/IEC/IEEE 26514:2022}, \textit{Systems and software engineering --- Design
+and development of information for users}, que establece los criterios de estructura,
+contenido y presentación de la documentación de usuario.
+
+% -----------------------------------------------------------------------------
+\section{Alcance del Sistema}
+\label{sec:alcance}
+
+El manual cubre la totalidad de las funciones operativas de la plataforma EthosHub,
+organizadas por perfil de usuario:
+
+\begin{itemize}[noitemsep]
+    \item \textbf{Perfil Profesional} (capítulo~\ref{ch:profesional}): construcción y
+    gestión del portafolio (proyectos, experiencia laboral, formación académica y
+    habilidades), generación de currículum con CV Studio, y configuración del perfil
+    público.
+    \item \textbf{Perfil Reclutador} (capítulo~\ref{ch:reclutador}): panel de
+    reclutamiento, búsqueda inteligente y filtrada de talento, rankings, gestión del
+    \textit{pipeline} de selección y comunicación directa con los candidatos.
+    \item \textbf{Perfil Administrador} (capítulo~\ref{ch:administrador}): panel de
+    administración (\textit{backoffice}), gestión de cuentas, moderación de contenido,
+    administración del repositorio de habilidades, métricas globales y comunicaciones.
+\end{itemize}
+
+Asimismo, el manual incluye la gestión de acceso (registro, inicio de sesión y
+recuperación de credenciales), el uso de la plataforma desde dispositivos móviles
+(diseño adaptable), la resolución de problemas frecuentes y un glosario de términos.
+
+\paragraph{Fuera de alcance.} Quedan excluidos de este documento los procedimientos de
+instalación y despliegue (cubiertos por el \textit{Manual de Instalación}) y el diseño
+arquitectónico interno del software (cubierto por el \textit{Manual Técnico}).
+
+% -----------------------------------------------------------------------------
+\section{Público Objetivo}
+\label{sec:publico}
+
+Este manual está dirigido a tres audiencias, correspondientes a los tres perfiles del
+sistema. No se requieren conocimientos técnicos de programación; únicamente se asume
+familiaridad básica con el uso de un navegador web y de formularios en línea.
+
+\begin{TablaInfo}{Perfil}{Descripción de la persona usuaria}
+\textbf{Profesional} & Persona que desea publicar su portafolio, demostrar sus
+habilidades y proyectos, y hacerse visible ante reclutadores. \\ \hline
+\rowcolor{grisTecnico}
+\textbf{Reclutador} & Persona que busca, evalúa y contacta talento para procesos de
+selección, gestionando candidatos a lo largo de un \textit{pipeline}. \\ \hline
+\textbf{Administrador} & Persona responsable de la operación, la moderación y la
+supervisión global de la plataforma. \\ \hline
+\end{TablaInfo}
+
+% -----------------------------------------------------------------------------
+\section{Convenciones de la Guía y Formato Visual}
+\label{sec:convenciones}
+
+Para facilitar la lectura y la ejecución de los procedimientos, este manual emplea un
+conjunto uniforme de convenciones tipográficas y visuales.
+
+\subsection{Resaltados de Texto y Nomenclatura de Botones}
+\label{subsec:nomenclatura}
+
+\begin{itemize}[noitemsep]
+    \item Los \textbf{botones} y controles sobre los que se debe hacer clic se
+    representan así: \boton{Guardar}, \boton{Crear proyecto}, \boton{Cancelar}.
+    \item Los \textbf{campos de formulario} y etiquetas de la interfaz se muestran en
+    cursiva: \campo{Nombre}, \campo{Correo electrónico}, \campo{Nivel profesional}.
+    \item Las \textbf{rutas de navegación} dentro de la aplicación se indican con el
+    símbolo «\textgreater»: \rutanav{Configuración \textgreater\ Seguridad \textgreater\ Cambiar contraseña}.
+    \item Los \textbf{valores literales}, direcciones y comandos se muestran en
+    tipografía monoespaciada, por ejemplo \comando{https://ethoshub.com}.
+    \item Los \textbf{resultados esperados} de una acción se destacan en verde:
+    \resultado{Proyecto creado correctamente}.
+\end{itemize}
+
+Además, el manual utiliza tres tipos de avisos destacados:
+
+\begin{AvisoNota}
+Aporta consejos de productividad e información útil para aprovechar mejor una función.
+\end{AvisoNota}
+
+\begin{AvisoPrecaucion}
+Advierte sobre acciones que pueden producir un resultado no deseado si no se realizan
+con cuidado.
+\end{AvisoPrecaucion}
+
+\begin{AvisoAdvertencia}
+Señala acciones irreversibles o que pueden ocasionar la pérdida de datos, como la
+eliminación de una cuenta.
+\end{AvisoAdvertencia}
+
+\subsection{Interpretación de Capturas de Pantalla y Simbología}
+\label{subsec:capturas}
+
+Cada procedimiento se ilustra con capturas de pantalla numeradas como
+\textbf{Figura~\textit{capítulo.número}}. Las capturas se presentan inmediatamente
+después del paso que documentan, y su leyenda describe con precisión el control o la
+acción resaltada en la imagen.
+
+\begin{itemize}[noitemsep]
+    \item Las imágenes se muestran a un tamaño uniforme para conservar la legibilidad y
+    se disponen como máximo dos por página.
+    \item Cuando un procedimiento depende de un paso anterior, la leyenda lo indica
+    explícitamente (por ejemplo, «tras pulsar \boton{Continuar}\ldots»).
+    \item Los iconos del sistema se describen por su forma (icono de lápiz para editar,
+    icono de papelera para eliminar, icono de estrella para destacar, etc.).
+\end{itemize}
+
+\begin{NotaTecnica}
+Los datos que aparecen en las capturas (nombres, correos, proyectos) son ejemplos
+ilustrativos. La información real dependerá de la cuenta y del contenido de cada
+persona usuaria.
+\end{NotaTecnica}

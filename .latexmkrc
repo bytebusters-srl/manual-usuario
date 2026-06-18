@@ -3,6 +3,17 @@
 # 1. Enviar toda la basura y el PDF final a la carpeta build/
 $out_dir = 'build';
 
+# 1b. Crear los subdirectorios espejo dentro de build/ que requiere \include
+#     (cada \include escribe su .aux en build/<misma-ruta>). Como la carpeta
+#     build/ está en .gitignore, estos subdirectorios se recrean en cada
+#     compilación desde un clon limpio.
+foreach my $d ('config', 'sections', 'sections/front',
+               'sections/cap01', 'sections/cap02', 'sections/cap03',
+               'sections/cap04', 'sections/cap05', 'sections/cap06',
+               'sections/cap07', 'sections/cap08') {
+    system('mkdir', '-p', "build/$d");
+}
+
 # 2. Forzar la compilación en PDF usando pdflatex
 $pdf_mode = 1; 
 

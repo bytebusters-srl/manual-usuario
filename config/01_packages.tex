@@ -1,5 +1,6 @@
 % 01_packages.tex
 % Paquetes esenciales para el cumplimiento de ISO/IEC/IEEE 26514:2022
+% (Documentación de usuario para sistemas y software)
 
 % Codificación e idioma
 \usepackage[utf8]{inputenc}
@@ -7,26 +8,55 @@
 \usepackage[spanish,es-tabla]{babel} % Soporte en español
 
 % Familias Tipográficas (Norma de Diseño)
-\usepackage{mathptmx}  % Establece Serif (Times) como fuente principal para el cuerpo
-\usepackage{helvet}    % Establece Sans-serif (Helvetica) para la familia sin remates
-\usepackage{courier}   % Establece Monospace (Courier) para la familia monoespaciada
+\usepackage{mathptmx}  % Cuerpo: Serif (Times New Roman)
+\usepackage{helvet}    % Títulos: Sans-serif (Helvetica)
+\usepackage{courier}   % Código: Monospace (Courier New / Lucida)
 
 % Geometría y Layout
 \usepackage{geometry}  % Control preciso de los márgenes de página
-\usepackage{setspace}  % Configuración de interlineado (1.5 requerido)
+\usepackage{setspace}  % Configuración de interlineado
 \usepackage{fancyhdr}  % Personalización de encabezados y pies de página
-\usepackage{lastpage}  % Permite referenciar el total de páginas (Ej. Página X de Y)
-\usepackage{titlesec}  % Formateo de títulos y subtítulos (tamaño y estilo)
+\usepackage{lastpage}  % Referencia al total de páginas
+\usepackage{titlesec}  % Formateo de títulos y subtítulos
 
 % Gráficos, Colores y Símbolos
-\usepackage{graphicx}      % Inserción de imágenes y logos corporativos
+\usepackage{graphicx}      % Inserción de imágenes y capturas de pantalla
 \usepackage{xcolor}        % Definición de paleta de colores corporativa
-\usepackage{fontawesome5}  % Iconografía para componentes de avisos (Nota, Precaución)
-\usepackage{amssymb}       % Símbolos adicionales (ej. cuadros para checklists)
+\usepackage{fontawesome5}  % Iconografía para avisos (Nota, Precaución, etc.)
+\usepackage{amssymb}       % Símbolos para checklists
+
+% Figuras y leyendas (capturas de pantalla del manual de usuario)
+\usepackage{float}         % Control de posicionamiento de figuras
+\usepackage{caption}       % Leyendas numeradas (Figura X.Y)
+\usepackage{needspace}     % Evita cortes feos: reserva espacio mínimo en página
+
+% Tablas (matrices de roles, errores y referencias)
+\usepackage{tabularx}      % Tablas autoajustables
+\usepackage{colortbl}      % Color de fondo para celdas/filas de tablas
+\usepackage{booktabs}      % Líneas profesionales para tablas
+\usepackage{multirow}      % Celdas combinadas en tablas
+\usepackage{longtable}     % Tablas multipágina (glosario, matriz de errores)
+\usepackage{array}         % Columnas con formato avanzado
 
 % Cajas de Diseño y Listas
-\usepackage[most]{tcolorbox} % Creación de cajas visuales para avisos y ayudas
+\usepackage[most]{tcolorbox} % Cajas visuales para avisos y ayudas
 \usepackage{enumitem}        % Personalización de viñetas para checklists
 
+% Rutas y URLs largas con quiebre de línea automático (evita overfull)
+\usepackage{seqsplit}      % Quiebre carácter a carácter de cadenas largas
+\usepackage{ragged2e}      % Justificado flexible para celdas estrechas
+
 % Navegación y Metadatos PDF
-\usepackage{hyperref}  % Generación de enlaces internos y propiedades del documento
+\usepackage{hyperref}  % Generación de enlaces internos
+\usepackage{xurl}      % Quiebre de URLs en cualquier carácter (tras hyperref)
+
+% Leyendas de figuras: tipografía sans, etiqueta en color primario
+\captionsetup{
+    font={footnotesize},
+    labelfont={sf,bf,color=colorPrimario},
+    textfont={sf},
+    labelsep=endash,
+    justification=centering,
+    skip=4pt
+}
+\renewcommand{\figurename}{Figura}

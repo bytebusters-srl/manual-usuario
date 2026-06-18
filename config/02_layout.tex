@@ -1,50 +1,77 @@
 % 02_layout.tex
-% Geometría, Encabezados, Títulos y Metadatos PDF
+% Geometría, Encabezados, Títulos y Metadatos PDF (ISO 15289)
 
-% 1. Configuración de Márgenes Exactos (Corrección ISO Definitiva)
+% 1. Configuración de Márgenes Exactos
 \geometry{
     a4paper,
-    inner=3cm,       % Margen izquierdo para encuadernación
-    outer=2cm,       % Margen derecho
-    top=2.5cm,       % Distancia exacta del borde superior de la hoja al ENCABEZADO
-    bottom=2.5cm,    % Distancia exacta del borde inferior de la hoja al PIE DE PÁGINA
-    includehead,     % Instrucción clave: El encabezado va DENTRO del margen de 2.5cm
-    includefoot,     % Instrucción clave: El pie de página va DENTRO del margen de 2.5cm
-    headheight=28pt, % Reserva espacio suficiente para el alto de tu logo
-    headsep=0.2cm,   % Separación estética entre la línea del encabezado y el texto
-    footskip=1.0cm   % Separación estética entre el final del texto y la línea del pie
+    inner=2.5cm,       % Margen izquierdo para archivo físico
+    outer=2.5cm,       % Margen derecho
+    top=2.5cm,       % Distancia superior
+    bottom=2.5cm,    % Distancia inferior
+    includehead,     % El encabezado va dentro del margen
+    includefoot,     % El pie de página va dentro del margen
+    headheight=28pt, 
+    headsep=0.4cm,   
+    footskip=1.0cm   
 }
-\onehalfspacing      % Interlineado 1.5
+\onehalfspacing      % Interlineado 1.5 para legibilidad en lectura larga
 
-% 2. Jerarquía de Títulos (Especificaciones de Tipografía)
-% Títulos Principales (Capítulos): Helvetica, 18 pt, Negrita, Color Primario
-\titleformat{\chapter}[hang]
-  {\sffamily\bfseries\fontsize{16}{21.6}\selectfont\color{colorPrimario}}
-  {\thechapter.}
-  {1em}{}
-\titlespacing*{\chapter}{0pt}{-20pt}{20pt} % Ajuste de espaciado superior del capítulo
+% 2. Jerarquía de Títulos (Especificaciones de Diseño)
+% Portada de capítulo estilo "libro": el título del capítulo ocupa su propia
+% plana y el contenido comienza en la página siguiente. Se logra con un
+% \titleformat de tipo "display" que coloca un rótulo "CAPÍTULO N" y el título
+% en gran tamaño. NO se dibuja regla horizontal; en su lugar, cada capítulo
+% declara un breve resumen con \resumenCapitulo{...}, que cierra la plana.
+\titleformat{\chapter}[display]
+  {\sffamily\bfseries\color{colorPrimario}}
+  {\filright\fontsize{13}{15}\selectfont\color{grisISO}\MakeUppercase{Capítulo \thechapter}}
+  {0.35cm}
+  {\fontsize{25}{29}\selectfont\filright}
+  []
+\titlespacing*{\chapter}{0pt}{55pt}{24pt}
 
-% Subtítulos (Secciones): Helvetica, 14 pt, Negrita, Color Automático
+% \resumenCapitulo{texto}: sinopsis breve bajo el título del capítulo, en la
+% misma plana. Cierra con \clearpage para que el contenido empiece en la página
+% siguiente (estilo libro). Sustituye a la antigua regla horizontal de color.
+\newcommand{\resumenCapitulo}[1]{%
+  \vspace{0.5cm}%
+  {\color{colorAcento}\rule{2.5cm}{2pt}}\par
+  \vspace{0.45cm}%
+  {\normalfont\sffamily\fontsize{11}{15}\selectfont\color{grisISO!95!black}%
+   \itshape #1\par}%
+  \clearpage}
+
+% Subtítulos: Helvetica, 14 pt, Negrita
 \titleformat{\section}[hang]
-  {\sffamily\bfseries\fontsize{14}{16.8}\selectfont}
+  {\sffamily\bfseries\fontsize{14}{16.8}\selectfont\color{colorPrimario}}
   {\thesection.}
   {1em}{}
 
-% 3. Identidad Corporativa (Encabezado y Pie de Página - Ajuste ISO de Jerarquía)
+% 3. Identidad Corporativa: Encabezado y Pie (Trazabilidad)
+
+% Variables de trazabilidad documental (ISO 15289). Se redefinen desde main.tex.
+\newcommand{\currentDocID}{MU-PERF-000}
+\newcommand{\currentDocEstado}{Borrador}
+\newcommand{\setDocID}[1]{\renewcommand{\currentDocID}{#1}}
+\newcommand{\setDocEstado}[1]{\renewcommand{\currentDocEstado}{#1}}
+
 \pagestyle{fancy}
-\fancyhf{} 
+\fancyhf{}
 
-% Encabezado
+% Redefinimos las marcas para capturar solo el nombre limpio del capítulo/sección
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+
+% Encabezado: Logo (Izq) | Capítulo + Estado (Der)
 \fancyhead[L]{\includegraphics[height=0.5cm, keepaspectratio]{assets/img/bytebusters/logo_horizontal.png}}
-% Sans-serif (\sffamily), tamaño reducido (\footnotesize), color gris
-\fancyhead[R]{\sffamily\footnotesize\textcolor{colorPrimario}{\textbf{Sistema Gestor v3.2}}}
 
-% Pie de Página
-\fancyfoot[L]{\sffamily\footnotesize\textcolor{colorPrimario}{\today}}
-\fancyfoot[C]{\sffamily\footnotesize\textcolor{colorPrimario}{Página \thepage\ de \pageref{LastPage}}}
-\fancyfoot[R]{\sffamily\footnotesize\textcolor{colorPrimario}{soporte@bytebusters.com}}
+% \leftmark inyecta automáticamente el nombre del capítulo actual
+\fancyhead[R]{\sffamily\footnotesize\textcolor{colorPrimario}{\textbf{\leftmark\ | Estado: \currentDocEstado}}}
 
-% Líneas separadoras más sutiles (gris en lugar de negro puro)
+% Pie de Página: ID Documental y Confidencialidad (Izq) | Paginación (Der)
+\fancyfoot[L]{\sffamily\footnotesize\textcolor{grisISO}{\currentDocID\ | Confidencial - Byte Busters S.R.L.}}
+\fancyfoot[R]{\sffamily\footnotesize\textcolor{grisISO}{Página \thepage\ de \pageref{LastPage}}}
+
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{grisISO}\leaders\hrule height \headrulewidth\hfill}}
@@ -55,6 +82,6 @@
     colorlinks=true,
     linkcolor=colorPrimario,
     urlcolor=colorPrimario,
-    pdftitle={Manual de Usuario - Estándar ISO/IEC/IEEE 26514},
+    pdftitle={Manual del Sistema para Perfiles - EthosHub (ISO/IEC/IEEE 26514:2022)},
     pdfauthor={Byte Busters S.R.L.}
 }

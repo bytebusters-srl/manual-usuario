@@ -1,84 +1,61 @@
 % main.tex
-% Estructura Principal - Manual de Usuario ISO/IEC/IEEE 26514:2022
+% Manual del Sistema para Perfiles — Plataforma EthosHub
+% Estándar ISO/IEC/IEEE 26514:2022 (Documentación de usuario)
 
-% Clase 'report' a dos caras (twoside) para encuadernación, tamaño A4, fuente base 11pt
-\documentclass[11pt, a4paper, twoside]{report} 
+\documentclass[11pt, a4paper, twoside]{report}
 
-% 1. Carga de configuraciones en orden lógico
+% ==========================================
+% CARGA DE CONFIGURACIONES
+% ==========================================
 \input{config/01_packages}
 \input{config/03_fonts_colors}
 \input{config/02_layout}
 \input{config/04_macros}
 
+% ==========================================
+% METADATOS DE TRAZABILIDAD DOCUMENTAL
+% ==========================================
+\setDocID{MU-PERF-ETHOSHUB-1.0.0}
+\setDocEstado{Aprobado}
+
 \begin{document}
 
 % ==========================================
-% PORTADA Y TÍTULO
+% PORTADA
 % ==========================================
-% (Aquí debes incluir tu archivo de portada con logo, versión y autoría)
-\include{sections/00_portada}
-
+\include{sections/front/00_portada}
 
 % ==========================================
 % TABLA DE CONTENIDOS
 % ==========================================
 \clearpage
 \begingroup
-  % Neutralizamos el estilo 'plain' que LaTeX fuerza en el índice
-  \makeatletter
-  \let\ps@plain\ps@empty
-  \makeatother
-  
-  \pagestyle{empty} % Nos aseguramos de que no haya encabezados ni pies
+  \makeatletter \let\ps@plain\ps@empty \makeatother
+  \pagestyle{empty}
   \tableofcontents
   \clearpage
 \endgroup
 
-% Reinicio de paginación para el contenido principal
-\pagestyle{fancy}    % Restauramos tu encabezado y pie de página corporativo
-\setcounter{page}{1} % La página 1 arranca oficialmente en la Introducción
-
-% Reinicio de paginación para el contenido principal
+\pagestyle{fancy}
 \setcounter{page}{1}
 
 % ==========================================
-% INTRODUCCIÓN
+% HISTORIAL DE REVISIONES Y ROLES
 % ==========================================
-\chapter{Introducción}
-% Propósito del manual, audiencia objetivo y convenciones tipográficas.
+\include{sections/front/01_historial}
 
 % ==========================================
-% INFORMACIÓN GENERAL DEL SISTEMA
+% CONTENIDO (índice ISO/IEC/IEEE 26514:2022)
 % ==========================================
-\chapter{Información General del Sistema}
-% Descripción funcional, requisitos de hardware/software e instalación.
+\include{sections/cap01/00_introduccion}        % 1. Introducción
+\include{sections/cap02/00_acceso}              % 2. Arquitectura de acceso y conceptos básicos
 
-% ==========================================
-% INSTRUCCIONES PASO A PASO (NÚCLEO)
-% ==========================================
-\chapter{Instrucciones de Uso}
-% Procedimientos específicos, resultados esperados y apoyo visual.
-% Ejemplo de uso de macros:
-% \begin{AvisoPrecaucion} Guarde su trabajo antes de continuar. \end{AvisoPrecaucion}
+\include{sections/cap03/00_profesional}         % 3. Guía operativa: Perfil Profesional
+\include{sections/cap04/00_reclutador}          % 4. Guía operativa: Perfil Reclutador
+\include{sections/cap05/00_administrador}       % 5. Guía operativa: Perfil Administrador
 
-% ==========================================
-% RESOLUCIÓN DE PROBLEMAS (TROUBLESHOOTING)
-% ==========================================
-\chapter{Resolución de Problemas}
-% Tabla de síntomas, causas y soluciones.
-
-% ==========================================
-% GLOSARIO
-% ==========================================
-\chapter*{Glosario}
-\addcontentsline{toc}{chapter}{Glosario}
-% Definición de términos técnicos.
-
-% ==========================================
-% APÉNDICES Y REFERENCIAS
-% ==========================================
-\appendix
-\chapter{Información Complementaria y Soporte}
-% Canales de soporte técnico, referencias y anexos.
+\include{sections/cap06/00_troubleshooting}     % 6. Resolución de problemas
+\include{sections/cap07/00_soporte}             % 7. Soporte y asistencia técnica
+\include{sections/cap08/00_glosario}            % 8. Glosario de términos
 
 \end{document}

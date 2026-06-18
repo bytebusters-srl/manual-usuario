@@ -23,3 +23,30 @@ _minted-*/
 # 4. Archivos basura del Sistema Operativo
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# 5. Refuerzo: artefactos de compilación en cualquier subcarpeta
+**/build/
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.bak
+*.tmp
+*.swp
+*~
+*.run.xml
+
+# 6. Editores e IDE
+.idea/
+*.sublime-*
+
+# 7. Archivos de prueba / marcadores de posición en assets
+**/prueba
+**/prueba.*

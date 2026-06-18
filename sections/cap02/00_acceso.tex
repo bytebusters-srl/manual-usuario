@@ -1,0 +1,156 @@
+% =============================================================================
+% CAPÍTULO 2 — ARQUITECTURA DE ACCESO Y CONCEPTOS BÁSICOS
+% =============================================================================
+\chapter{Arquitectura de Acceso y Conceptos Básicos}
+\label{ch:acceso}
+\resumenCapitulo{Este capítulo describe el modelo de perfiles y permisos de EthosHub,
+los requisitos mínimos del entorno para utilizar la plataforma y los procedimientos de
+acceso inicial: registro, inicio de sesión y recuperación de credenciales.}
+
+% -----------------------------------------------------------------------------
+\section{Matriz de Perfiles y Roles (RBAC)}
+\label{sec:rbac}
+
+EthosHub implementa un control de acceso basado en roles (\textit{Role-Based Access
+Control}, RBAC). Al registrarse, cada persona usuaria adopta un perfil que determina
+las funciones a las que puede acceder. Los perfiles son mutuamente excluyentes: una
+cuenta opera como Profesional, como Reclutador o como Administrador.
+
+\vspace{0.2cm}
+\noindent
+\renewcommand{\arraystretch}{1.4}
+\fontsize{9}{11}\selectfont\sffamily
+\begin{tabularx}{\textwidth}{|>{\bfseries\color{colorPrimario}\raggedright\arraybackslash}p{6.6cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|}
+\hline
+\rowcolor{headerTabla}
+\sffamily\textbf{Función / Capacidad} & \sffamily\textbf{Profesional} & \sffamily\textbf{Reclutador} & \sffamily\textbf{Administrador} \\
+\hline
+Gestionar portafolio propio (proyectos, experiencia, educación, habilidades) & Sí & No & No \\
+\hline
+\rowcolor{grisTecnico}
+Generar currículum (CV Studio) & Sí & No & No \\
+\hline
+Buscar y filtrar talento & No & Sí & Sí \\
+\hline
+\rowcolor{grisTecnico}
+Gestionar \textit{pipeline} de candidatos & No & Sí & No \\
+\hline
+Contactar por chat & Sí & Sí & No \\
+\hline
+\rowcolor{grisTecnico}
+Moderar contenido y reportes & No & No & Sí \\
+\hline
+Gestionar cuentas, roles y permisos & No & No & Sí \\
+\hline
+\rowcolor{grisTecnico}
+Administrar el repositorio global de habilidades & No & No & Sí \\
+\hline
+Consultar métricas globales del sistema & No & No & Sí \\
+\hline
+\rowcolor{grisTecnico}
+Configurar su propia cuenta (perfil, seguridad, datos) & Sí & Sí & Sí \\
+\hline
+\end{tabularx}
+
+\vspace{0.3cm}
+\begin{AvisoNota}
+Si necesita operar con un perfil distinto al de su cuenta actual (por ejemplo, pasar de
+Profesional a Reclutador), deberá solicitarlo al equipo de administración; el cambio de
+rol no puede realizarse de forma autónoma.
+\end{AvisoNota}
+
+% -----------------------------------------------------------------------------
+\section{Requisitos Mínimos del Entorno}
+\label{sec:requisitos}
+
+EthosHub es una aplicación web; no requiere instalación local. Para una experiencia
+óptima se recomienda el siguiente entorno.
+
+\begin{TablaInfo}{Componente}{Requisito recomendado}
+\textbf{Navegador web} & Google Chrome, Microsoft Edge, Mozilla Firefox o Safari, en
+su versión estable más reciente (o las dos versiones anteriores). \\ \hline
+\rowcolor{grisTecnico}
+\textbf{Conectividad} & Conexión a Internet estable de al menos 2~Mbps para la carga de
+capturas, documentos y multimedia. \\ \hline
+\textbf{Resolución} & 1280\,$\times$\,720 píxeles o superior en escritorio. La
+plataforma también ofrece diseño adaptable para teléfonos y tabletas. \\ \hline
+\rowcolor{grisTecnico}
+\textbf{Cookies y JavaScript} & Habilitados, requisito indispensable para la sesión y
+las funciones interactivas. \\ \hline
+\textbf{Cuenta de correo} & Una dirección de correo válida y accesible, necesaria para
+la verificación y la recuperación de credenciales. \\ \hline
+\end{TablaInfo}
+
+\begin{AvisoPrecaucion}
+El uso de navegadores obsoletos o con extensiones que bloqueen JavaScript puede impedir
+el funcionamiento correcto de formularios, mapas interactivos y carga de archivos.
+\end{AvisoPrecaucion}
+
+% -----------------------------------------------------------------------------
+\section{Gestión de Acceso Inicial}
+\label{sec:acceso-inicial}
+
+Antes de utilizar cualquier función, la persona usuaria debe disponer de una cuenta y
+haber iniciado sesión. A continuación se describen los tres procedimientos de acceso.
+
+\subsection{Registro de Cuenta Nueva}
+\label{subsec:registro}
+
+\begin{enumerate}[noitemsep]
+    \item Abra el navegador e ingrese a la dirección de la plataforma:
+    \comando{https://ethoshub.com}.
+    \item En la pantalla de bienvenida, pulse el botón \boton{Registrarse} (o
+    \boton{Crear cuenta}).
+    \item Complete el formulario de registro con su \campo{Nombre}, \campo{Apellido},
+    \campo{Correo electrónico} y \campo{Contraseña}. La contraseña debe cumplir los
+    requisitos mínimos de seguridad indicados en pantalla.
+    \item Seleccione el tipo de perfil con el que desea operar (\campo{Profesional} o
+    \campo{Reclutador}).
+    \item Pulse \boton{Crear cuenta}. El sistema enviará un código o enlace de
+    verificación a su correo electrónico.
+    \item Abra el mensaje recibido e introduzca el código de verificación, o pulse el
+    enlace, para activar la cuenta.
+\end{enumerate}
+
+\resultado{Resultado esperado:} la cuenta queda activada y el sistema lo dirige al
+espacio de trabajo correspondiente a su perfil.
+
+\subsection{Inicio de Sesión Autónomo}
+\label{subsec:login}
+
+\begin{enumerate}[noitemsep]
+    \item Ingrese a \comando{https://ethoshub.com} y pulse \boton{Iniciar sesión}.
+    \item Introduzca el \campo{Correo electrónico} y la \campo{Contraseña} asociados a
+    su cuenta.
+    \item Pulse \boton{Entrar}. Si las credenciales son correctas, accederá a su panel
+    principal.
+\end{enumerate}
+
+\begin{AvisoNota}
+Si activa la opción \campo{Recordarme}, la sesión se mantendrá iniciada en ese
+navegador hasta que cierre sesión manualmente. Evite usar esta opción en equipos
+compartidos.
+\end{AvisoNota}
+
+\subsection{Recuperación de Credenciales de Acceso}
+\label{subsec:recuperacion}
+
+Si olvidó su contraseña, puede restablecerla sin asistencia:
+
+\begin{enumerate}[noitemsep]
+    \item En la pantalla de inicio de sesión, pulse el enlace
+    \boton{¿Olvidó su contraseña?}.
+    \item Introduzca el \campo{Correo electrónico} asociado a la cuenta y pulse
+    \boton{Enviar código}.
+    \item Revise su bandeja de entrada e introduzca el código de verificación recibido.
+    \item Defina una \campo{Nueva contraseña}, confírmela y pulse
+    \boton{Actualizar contraseña}.
+\end{enumerate}
+
+\resultado{Resultado esperado:} la contraseña se actualiza y puede iniciar sesión con
+las nuevas credenciales.
+
+\begin{AvisoPrecaucion}
+El código de verificación tiene una vigencia limitada. Si caduca, repita el
+procedimiento para solicitar uno nuevo.
+\end{AvisoPrecaucion}

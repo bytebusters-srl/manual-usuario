@@ -1,0 +1,92 @@
+% =============================================================================
+% CAPÍTULO 6 — RESOLUCIÓN DE PROBLEMAS (TROUBLESHOOTING)
+% =============================================================================
+\chapter{Resolución de Problemas}
+\label{ch:troubleshooting}
+\resumenCapitulo{Este capítulo reúne los errores e incidencias más frecuentes que
+pueden presentarse durante el uso de la plataforma, junto con sus acciones correctivas,
+y responde a las preguntas más habituales de las personas usuarias.}
+
+% -----------------------------------------------------------------------------
+\section{Matriz de Errores Comunes y Acciones Correctivas}
+\label{sec:matriz-errores}
+
+La siguiente tabla resume los síntomas más frecuentes, su causa probable y la acción
+recomendada para resolverlos.
+
+\vspace{0.2cm}
+\noindent
+\renewcommand{\arraystretch}{1.4}
+\fontsize{9}{11}\selectfont\sffamily
+\begin{tabularx}{\textwidth}{|>{\bfseries\color{colorPrimario}}L{3.4cm}|Y|Y|}
+\hline
+\rowcolor{headerTabla}
+\sffamily\textbf{Síntoma} & \sffamily\textbf{Causa probable} & \sffamily\textbf{Acción correctiva} \\
+\hline
+No es posible iniciar sesión & Credenciales incorrectas o cuenta sin verificar. &
+Verifique el correo y la contraseña; use \boton{¿Olvidó su contraseña?} y confirme la
+verificación enviada a su correo. \\
+\hline
+\rowcolor{grisTecnico}
+No llega el código de verificación & El mensaje fue filtrado o el correo es incorrecto.
+& Revise la carpeta de \textit{spam}, confirme la dirección y solicite un nuevo código. \\
+\hline
+La captura o el documento no se carga & Archivo demasiado grande o formato no admitido.
+& Use formatos admitidos (PNG, JPG, PDF) y reduzca el tamaño del archivo. \\
+\hline
+\rowcolor{grisTecnico}
+El mapa de ubicación no aparece & JavaScript deshabilitado o conexión inestable. &
+Habilite JavaScript, recargue la página y verifique su conexión. \\
+\hline
+Los cambios no se guardan & No se pulsó el botón de guardado correspondiente. &
+Asegúrese de pulsar \boton{Guardar} (o \boton{Actualizar}) tras editar cada sección. \\
+\hline
+\rowcolor{grisTecnico}
+Un campo obligatorio impide continuar & Falta completar un campo marcado con asterisco
+(*). & Complete todos los campos obligatorios antes de avanzar. \\
+\hline
+La sesión se cierra inesperadamente & Expiración por inactividad. & Vuelva a iniciar
+sesión; active \campo{Recordarme} en su equipo personal. \\
+\hline
+\rowcolor{grisTecnico}
+La interfaz se ve incompleta & Navegador obsoleto o caché corrupta. & Actualice el
+navegador y limpie la caché; recargue con \comando{Ctrl+F5}. \\
+\hline
+\end{tabularx}
+
+\vspace{0.3cm}
+\begin{AvisoNota}
+Ante cualquier comportamiento inesperado, el primer paso recomendado es recargar la
+página y, si persiste, cerrar sesión y volver a iniciarla. Muchas incidencias
+transitorias se resuelven así.
+\end{AvisoNota}
+
+% -----------------------------------------------------------------------------
+\section{Preguntas Frecuentes (FAQ)}
+\label{sec:faq}
+
+\begin{description}[style=unboxed,leftmargin=0pt,noitemsep]
+    \item[\textcolor{colorPrimario}{\textbf{¿Puedo cambiar mi tipo de perfil?}}]
+    El cambio de rol (por ejemplo, de Profesional a Reclutador) lo realiza el equipo de
+    administración. Contáctelo a través de los canales del capítulo~\ref{ch:soporte}.
+
+    \item[\textcolor{colorPrimario}{\textbf{¿Mi portafolio es visible para todos?}}]
+    Usted controla la visibilidad de su perfil y de cada proyecto mediante los
+    interruptores de privacidad descritos en el capítulo~\ref{ch:profesional}.
+
+    \item[\textcolor{colorPrimario}{\textbf{¿Cómo recupero datos eliminados?}}]
+    La eliminación de proyectos, registros o cuentas es \textbf{permanente}. Antes de
+    eliminar, exporte sus datos desde \rutanav{Configuración \textgreater\ Exportar mis datos}.
+
+    \item[\textcolor{colorPrimario}{\textbf{¿Puedo usar EthosHub en el teléfono?}}]
+    Sí. La plataforma cuenta con diseño adaptable; consulte el apartado de acceso móvil
+    de cada capítulo de perfil.
+
+    \item[\textcolor{colorPrimario}{\textbf{¿En qué idiomas está disponible?}}]
+    La interfaz puede configurarse en español (ES), inglés (EN) y portugués (BR) desde
+    \rutanav{Configuración \textgreater\ Personalización}.
+
+    \item[\textcolor{colorPrimario}{\textbf{¿Cómo cambio entre tema claro y oscuro?}}]
+    Desde \rutanav{Configuración \textgreater\ Personalización \textgreater\ Tema de la Interfaz},
+    eligiendo \boton{Claro}, \boton{Oscuro} o \boton{Sistema}.
+\end{description}

@@ -1,54 +1,137 @@
 % 04_macros.tex
-% Componentes Especiales, Avisos y Formatos Personalizados
+% Componentes especiales, avisos, capturas de pantalla y formatos
+% (Manual de usuario — ISO/IEC/IEEE 26514:2022)
 
-% 1. Formato para Comandos y Rutas (Courier, 10pt)
-\newcommand{\comando}[1]{{\fontfamily{pcr}\fontsize{10}{12}\selectfont\texttt{#1}}}
+% =============================================================================
+% 1. FORMATO PARA NOMBRES DE BOTONES, RUTAS Y RESULTADOS
+% =============================================================================
 
-% 2. Formato para Resultados Esperados (Verde)
+% \boton{Texto}: nomenclatura estandarizada de un control de la interfaz.
+\newcommand{\boton}[1]{{\sffamily\bfseries\color{colorPrimario}[#1]}}
+
+% \campo{Texto}: nombre de un campo de formulario o etiqueta de la interfaz.
+\newcommand{\campo}[1]{{\sffamily\itshape #1}}
+
+% \ruta{a > b > c}: ruta de navegación dentro de la aplicación.
+\newcommand{\rutanav}[1]{{\sffamily\bfseries\color{grisISO}#1}}
+
+% \comando{texto}: comandos en línea, URL cortas o valores literales.
+\newcommand{\comando}[1]{{\fontfamily{pcr}\fontsize{9}{10.8}\selectfont\colorbox{grisTecnico}{\texttt{#1}}}}
+
+% \resultado{texto}: resultado esperado de una acción (verde de éxito).
 \newcommand{\resultado}[1]{\textcolor{colorSecundario}{\textbf{#1}}}
 
-% 3. Componentes Especiales de Usabilidad (Estándar ISO)
+% Tipos de columna con centrado vertical (array): L izq, C centro, R der.
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 
-% Nota: Consejos de productividad (Fondo azul claro, icono info)
+% =============================================================================
+% 2. CAPTURAS DE PANTALLA
+% =============================================================================
+% Norma de maquetación del manual: las capturas se insertan al 0.9 del ancho
+% de texto y, mediante un tope de altura, se garantiza que NO entren más de
+% dos imágenes por página (evita desbordes y páginas con grandes huecos).
+
+% Contador de capturas en la página actual.
+\newcounter{capturasEnPagina}
+\setcounter{capturasEnPagina}{0}
+
+% \captura{ruta_imagen}{leyenda descriptiva}
+% Inserta una captura centrada (ancho 0.9\textwidth, alto máx. 0.42\textheight)
+% con su leyenda numerada. Tras la segunda captura de la página fuerza un salto
+% para respetar el máximo de dos imágenes por página.
+\newcommand{\captura}[2]{%
+  \par\vspace{0.25cm}%
+  \begin{center}%
+    \includegraphics[width=0.9\textwidth,height=0.42\textheight,keepaspectratio]{#1}%
+    \captionof{figure}{#2}%
+  \end{center}%
+  \vspace{0.15cm}%
+  \stepcounter{capturasEnPagina}%
+  \ifnum\value{capturasEnPagina}>1\relax
+     \setcounter{capturasEnPagina}{0}%
+     \clearpage
+  \fi%
+}
+
+% \reiniciarPagina: reinicia el contador e inicia página nueva. Útil al cambiar
+% de sección para no arrastrar una captura suelta a un bloque distinto.
+\newcommand{\reiniciarPagina}{\setcounter{capturasEnPagina}{0}\clearpage}
+
+% \responsivePar{img1}{cap1}{img2}{cap2}: dos capturas verticales (móvil) una
+% al lado de la otra. Pensado para el apartado de diseño adaptable (responsive).
+\newcommand{\responsivePar}[4]{%
+  \par\vspace{0.3cm}%
+  \noindent\begin{center}%
+  \begin{minipage}[t]{0.46\textwidth}\centering
+    \includegraphics[width=\linewidth,height=0.62\textheight,keepaspectratio]{#1}%
+    \captionof{figure}{#2}%
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.46\textwidth}\centering
+    \includegraphics[width=\linewidth,height=0.62\textheight,keepaspectratio]{#3}%
+    \captionof{figure}{#4}%
+  \end{minipage}%
+  \end{center}\par\vspace{0.3cm}\clearpage}
+
+% \responsiveUna{img}{cap}: una sola captura vertical (móvil) centrada.
+\newcommand{\responsiveUna}[2]{%
+  \par\vspace{0.3cm}\begin{center}%
+    \includegraphics[width=0.42\textwidth,height=0.62\textheight,keepaspectratio]{#1}%
+    \captionof{figure}{#2}%
+  \end{center}\par\vspace{0.3cm}}
+
+% =============================================================================
+% 3. COMPONENTES ESPECIALES DE USABILIDAD (avisos ISO)
+% =============================================================================
+
+% Nota: consejos de productividad (fondo azul claro, icono info).
 \newtcolorbox{AvisoNota}{
-    colback=bgNota,
-    colframe=bgNota!80!black, % Borde ligeramente más oscuro
-    boxrule=0.5pt,
-    leftrule=4pt,
-    arc=2pt,
-    title={\faInfoCircle\ \textbf{Nota}},
-    coltitle=black,
-    fonttitle=\sffamily,
-    attach title to upper=\quad
+    colback=bgNota, colframe=bgNota!80!black, boxrule=0.5pt, leftrule=4pt,
+    arc=2pt, title={\faInfoCircle\ \textbf{Nota}}, coltitle=black,
+    fonttitle=\sffamily, attach title to upper=\quad
 }
 
-% Precaución: Evitar errores operacionales (Borde amarillo, texto negrita, sin fondo invasivo)
+% Precaución: evitar errores operacionales (borde amarillo, texto negrita).
 \newtcolorbox{AvisoPrecaucion}{
-    colback=white,
-    colframe=colorAcento,
-    boxrule=1.5pt,
-    arc=2pt,
-    fontupper=\bfseries,
-    title={\faExclamationTriangle\ \textbf{Precaución}},
-    coltitle=black,
-    fonttitle=\sffamily,
-    attach title to upper=\par
+    colback=white, colframe=colorAcento, boxrule=1.5pt, arc=2pt,
+    fontupper=\bfseries, title={\faExclamationTriangle\ \textbf{Precaución}},
+    coltitle=black, fonttitle=\sffamily, attach title to upper=\par
 }
 
-% Advertencia: Prevenir pérdida de datos (Fondo rojo suave, icono peligro)
+% Advertencia: prevenir pérdida de datos (fondo rojo suave, icono peligro).
 \newtcolorbox{AvisoAdvertencia}{
-    colback=bgAdvertencia,
-    colframe=red!70!black,
-    boxrule=0.5pt,
-    leftrule=4pt,
-    arc=2pt,
-    title={\faRadiation\ \textbf{Advertencia}},
-    coltitle=black,
-    fonttitle=\sffamily,
-    attach title to upper=\par
+    colback=bgAdvertencia, colframe=red!70!black, boxrule=0.5pt, leftrule=4pt,
+    arc=2pt, title={\faRadiation\ \textbf{Advertencia}}, coltitle=black,
+    fonttitle=\sffamily, attach title to upper=\par
 }
 
-% 4. Formato de Checklists de Verificación
-% Utiliza cuadros de marcado estandarizados
+% Nota Técnica: dependencias o efectos del sistema (borde azul, fondo blanco).
+\newtcolorbox{NotaTecnica}{
+    colback=white, colframe=bordeNotaTecnica, boxrule=1.2pt, arc=2pt,
+    title={\faInfoCircle\ \textbf{Nota Técnica}}, coltitle=bordeNotaTecnica,
+    fonttitle=\sffamily, attach title to upper=\par\vspace{0.2em}
+}
+
+% =============================================================================
+% 4. LISTAS DE VERIFICACIÓN
+% =============================================================================
 \newlist{checklist}{itemize}{1}
-\setlist[checklist]{label=$\square$, leftmargin=*}
+\setlist[checklist]{label=$\square$, leftmargin=*, noitemsep}
+
+% =============================================================================
+% 5. TABLA GENÉRICA DE APOYO (matriz de roles, errores, FAQ, glosario)
+% =============================================================================
+% Nota: se usa tabular (no tabularx) porque tabularx no puede envolverse dentro
+% de un \newenvironment (realiza una relectura del cuerpo buscando su \end).
+\newenvironment{TablaInfo}[2]{%
+    \renewcommand{\arraystretch}{1.4}%
+    \vspace{0.3cm}\noindent
+    \fontsize{9.5}{12}\selectfont\sffamily
+    \begin{tabular}{|>{\bfseries\color{colorPrimario}\raggedright\arraybackslash}p{3.8cm}|>{\raggedright\arraybackslash}p{11.2cm}|}
+    \hline\rowcolor{headerTabla}
+    {\sffamily\bfseries #1} & {\sffamily\bfseries #2} \\ \hline
+}{%
+    \end{tabular}\vspace{0.3cm}%
+}
